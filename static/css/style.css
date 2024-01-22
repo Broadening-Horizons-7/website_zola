@@ -20,8 +20,8 @@
   --bg-light: #fcfcfc;
   --bg-dark: #f4f3f3;
   --bg-darker: #c7c6c6; 
-  /* --bg-dark-transparet: rgba(0, 0, 0, 0.6); */
   --bg-dark-transparent: #00000090;
+  --bg-dark-transparent0: #00000078;
   --bg-black: #1b1818;
   --bg-footer:  #822433;
   --accent-bg: #fcfaf5;
@@ -839,25 +839,10 @@ abbr[title] {
   font-style: italic;
 }
 
-/* header > div > nav > ul > li > ul {
-  display: none;
-  background-color: red;
+.social-header {
+  display: inline-block
 }
 
-header div > nav > ul > li:hover {
-  display: block;
+.social-header > a {
+  padding: 7px;
 }
-
-header div > nav > ul > li:hover ul {
-  display: block;
-  position: absolute;
-}
-
-header div > nav > ul > li > ul > li {
-  margin: 0;
-  padding: 0;
-}
-
-header div > nav > ul > li > ul > li:hover > a {
-  background-color: rgba(0,0,0,.15);	
-} */
