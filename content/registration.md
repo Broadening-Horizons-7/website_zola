@@ -1,5 +1,4 @@
-+++
-title = "Registration Info"
-+++
-
-Registration info goes here
+---
+title: Registration Info
+---
+Registration info goes here.
