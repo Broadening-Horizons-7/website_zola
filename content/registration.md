@@ -1,4 +1,4 @@
 +++
-title: Registration Info
+title = "Registration Info"
 +++
 Registration info goes here.
