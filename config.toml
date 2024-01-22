@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "https://broadeninghorizons7.it"
+base_url = "https://prismatic-arithmetic-c2644a.netlify.app"
+# base_url = "https://broadeninghorizons7.it"
 
 # The site title and description; used in feeds by default.
 title = "BH7"
