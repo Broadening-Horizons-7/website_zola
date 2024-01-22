@@ -21,37 +21,37 @@ collections:
   - name: "page"
     label: "Other Pages"
     files:
-      - file: "contact.md"
+      - file: "content/contact.md"
         label: "Contact Page"
         name: "contact"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "call.md"
+      - file: "content/call.md"
         label: "Call for Papers"
         name: "call for papers"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "registration.md"
+      - file: "content/registration.md"
         label: "Registration"
         name: "registration"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "venue.md"
+      - file: "content/venue.md"
         label: "Venue"
         name: "venue"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "committees.md"
+      - file: "content/committees.md"
         label: "Committees"
         name: "committees"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "sponsors.md"
+      - file: "content/sponsors.md"
         label: "Sponsors"
         name: "sponsors"
         fields:
