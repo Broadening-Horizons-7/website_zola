@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://broadening-horizons-7.com"
+base_url = "https://broadeninghorizons7.it"
 
 # The site title and description; used in feeds by default.
 title = "BH7"
@@ -55,7 +55,7 @@ social = [
     {link = "mailto:$EMAIL_ADDRESS", name = "Email"},
     {link = "https://facebook.com", name = "Facebook"},
     {link = "https://instagram.com", name = "Instagram"},
-    {link = "https://github.com", name = "Github"}
+    {link = "https://github.com/Broadening-Horizons-7/website_zola", name = "Github"}
 ]
 
 # trailing slashes are needed for the aria-current page in header.html to work
