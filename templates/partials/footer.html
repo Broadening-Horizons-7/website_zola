@@ -1,0 +1,10 @@
+<footer>
+    <div>
+        <nav class="powered-by">
+            <ul>
+                <li>{{ now() | date(format="%Y") }} © {{ config.author }} - <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a></li>
+                {{macros::render_social_icons()}}
+            </ul>
+        </nav>
+    </div>
+</footer>

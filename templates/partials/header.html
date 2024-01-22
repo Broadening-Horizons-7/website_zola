@@ -1,0 +1,58 @@
+{% if section.extra.featured_image %}
+<header class="cover" id="cover-image">
+    <div class="header-container">
+        <nav class="menu">
+            <ul class="nav">
+                {% set menu_items = config.extra.navbar_items -%}
+                {% for item in menu_items -%}
+                {% if item.url == "/" %}
+                <li class="nav-item-home">
+                    <a href="{{ config.base_url ~ item.url }}"
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a href="{{ config.base_url ~ item.url }}"
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
+                {% endif%}
+                {% endfor -%}
+            </ul>
+        </nav>
+        <div class="header-info">
+            <h1>{{ config.extra.name }}</h1>
+            <h2>{{ config.extra.location }}</h2>
+        </div>
+    </div>
+</header>
+{% else %}
+<header>
+    <div>
+        <nav class="menu">
+            <ul class="nav">
+                {% set menu_items = config.extra.navbar_items -%}
+                {% for item in menu_items -%}
+                {% if item.url == "/" %}
+                <li class="nav-item-home">
+                    <a href="{{ config.base_url ~ item.url }}"
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a href="{{ config.base_url ~ item.url }}"
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
+                {% endif%}
+                {% endfor -%}
+            </ul>
+        </nav>
+    </div>
+</header>
+
+{%endif%}
+
+

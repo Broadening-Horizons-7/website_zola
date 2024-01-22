@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="article-container">
+  <h1>
+    {{ page.title }}
+  </h1>
+  <p><time datetime="{{ page.date }}">{{ page.date }}</time></p>
+</div>
+<article>{{ page.content | safe }}
+  {% if page.lower or page.higher %}
+      <nav class="page-nav">
+      {% if page.higher %}
+          <a class="page-nav-item" href="{{ page.higher.permalink }}">
+              <div class="nav-arrow">← Previous</div>
+              <span class="page-title">{{ page.higher.title }}</span>
+          </a>
+      {% endif %}
+      {% if page.lower %}
+          <a class="page-nav-item" href="{{ page.lower.permalink }}">
+              <div class="nav-arrow">Next →</div>
+              <span class="page-title">{{ page.lower.title }}</span>
+          </a>
+      {% endif %}
+      </nav>
+  {% endif %}
+</article>
+{% endblock content %}
+

@@ -1,0 +1,47 @@
+{% import "macros/social.html" as macros %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noai, noimageai">
+  <title>{{ config.title }}</title>
+  <meta name="description" content="{{ config.description }}">
+  <link rel="canonical" href="{{ config.base_url }}">
+
+  {% block rss %}
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path=" atom.xml", trailing_slash=false) }}">
+    {% endblock %}
+    <meta name="generator" content="Zola v.0.18">
+    {% block css %}
+    <link rel="stylesheet" href="{{ get_url(path="css/style.css", trailing_slash=false) }}">
+    {% endblock css %}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+  <a href="#skip" class="visually-hidden">Skip to main content</a>
+  {% block header %}
+  {% include "partials/header.html" %}
+  {% endblock %}
+  <main id="skip" class="section">
+    {% block content %} {% endblock %}
+  </main>
+  {% block footer %}
+  {% include "partials/footer.html" %}
+  {% endblock %}
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+
+</html>

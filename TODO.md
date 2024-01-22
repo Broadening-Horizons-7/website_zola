@@ -1,0 +1,5 @@
+- [ ] Add social icons in footer
+- [ ] Add socials in contact
+- [ ] Add icons in header?
+- [ ] Add conference description
+- [ ] Freeform or netlify for email form

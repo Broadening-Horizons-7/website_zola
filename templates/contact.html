@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>
+  {{ page.title }}
+</h1>
+<article class="form">
+    <form class="" accept-charset="UTF-8" action="https://example.com" method="POST" role="form">
+    
+        <label class="" for="name">Your Name</label>
+        <input type="text" id="name" name="name" class="" required="" placeholder=" " aria-labelledby="name">
+    
+        <label class="" for="email">Email Address</label>
+        <input type="email" id="email" name="email" class="w" required="" placeholder=" " aria-labelledby="email">
+        <div class="requirements f6 gray glow i ph3 overflow-hidden">
+          An email address is required.
+        </div>
+    
+        <label class="" for="message">Message</label>
+        <textarea id="message" name="message" class="" aria-labelledby="message"></textarea>
+    
+        <input class="" type="submit" value="Send">
+    
+    </form>
+</article>
+{% endblock content %}
