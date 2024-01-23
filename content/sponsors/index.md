@@ -1,3 +1,5 @@
 +++
 title = "Our Sponsors"
 +++
+
+{{ gallery() }}

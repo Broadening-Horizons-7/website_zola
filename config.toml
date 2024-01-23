@@ -50,6 +50,12 @@ name = "Broadening Horizons 7"
 location = "Sapienza University, Rome TBA-TBA 2025"
 email = "bh7.sapienza@uniroma1.it"
 
+scientific_committee = []
+
+organizing_committee = [
+    {name = "Luca Volpi", affiliation = "", link = ""}
+]
+
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 social = [
@@ -62,7 +68,7 @@ social = [
 # trailing slashes are needed for the aria-current page in header.html to work
 navbar_items = [
     { url = "/", name = "Home" },
-    { url = "/news/", name = "News" },
+    { url = "/announcements/", name = "Announcements" },
     { url = "/sponsors/", name = "Sponsors" },
     { url = "/venue/", name = "Venue" },
     { url = "/registration/", name = "Registration" },

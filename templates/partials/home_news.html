@@ -1,22 +1,20 @@
-{% set news = get_section(path="news/_index.md") %}
-<h1>Recent News</h1>
-{% for page in news.pages | slice(end=10) %}
+{% set news = get_section(path="announcements/_index.md") %}
+<h1>Recent Announcements</h1>
+{% for page in news.pages | slice(end=3) %}
 <article class="post-entry">
   <header class="entry-header">
       <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
   </header>
-  {% if page.summary %}
   <div class="entry-content">
       <p>{{ page.content | striptags | truncate(length=150) | safe }}</p>
       <a href="{{ page.permalink }}#continue-reading" id="more">Continue Reading</a>
   </div>
-  {% endif %}
   <a class="entry-link" aria-label="post link to {{ page.title }}" href="{{ page.permalink }}"></a>
 </article>
 {% endfor %}
 
-{% if news.pages | length > 2 %}
+{% if news.pages | length > 3 %}
 <nav class="pagination">
-    <a class="next" href="/news">See all the news »</a>
+    <a class="next" href="/announcements">See all the announcements »</a>
 </nav>
 {% endif %}

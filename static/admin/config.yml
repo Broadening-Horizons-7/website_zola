@@ -1,23 +1,26 @@
+local_backend: true
+
 backend:
   name: git-gateway
   branch: main
 publish_mode: editorial_workflow
-media_folder: "static/img" # Media files will be stored in the repo under static/img
-public_folder: "/img" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "content/sponsors" # Media files will be stored in the repo under static/img
+public_folder: "" # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - name: "news" # Used in routes, e.g., /admin/collections/blog
+  - name: "announcements" # Used in routes, e.g., /admin/collections/blog
     format: toml-frontmatter
-    label: "News" # Used in the UI
-    folder: "content/news" # The path to the folder where the documents are stored
+    label: "Announcements" # Used in the UI
+    folder: "content/announcements" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "news"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "announcements"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD",  date_format: "YYYY-MM-DD", time_format: "false" }
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "File", name: "file", widget: "file", required: false}
   - name: "page"
     format: toml-frontmatter
     label: "Other Pages"
@@ -28,33 +31,60 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
       - file: "content/call.md"
         label: "Call for Papers"
         name: "call for papers"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
       - file: "content/registration.md"
         label: "Registration"
         name: "registration"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
       - file: "content/venue.md"
         label: "Venue"
         name: "venue"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
       - file: "content/committees.md"
         label: "Committees"
         name: "committees"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/sponsors.md"
+          - {label: "File", name: "file", widget: "file", required: false}
+      - file: "content/sponsors/index.md"
         label: "Sponsors"
         name: "sponsors"
+        media_folder: "" # Save images in the post's own folder instead of the static folder
+        public_folder: ""
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
+      - file: "content/_index.md"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
+  - name: "program" # Used in routes, e.g., /admin/collections/blog
+    format: toml-frontmatter
+    label: "Program" # Used in the UI
+    folder: "content/program" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "" # Save images in the post's own folder instead of the static folder
+    public_folder: ""
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "program"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "File", name: "file", widget: "file", required: false}

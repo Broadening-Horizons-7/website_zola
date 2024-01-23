@@ -95,7 +95,7 @@ body > header {
 }
 
 #cover-image {
-    background-image:url(../img/cover.jpg);
+    background-image:url(../img/cover6.jpg);
 }
 
 .cover {
@@ -105,7 +105,7 @@ body > header {
 }
 
 .header-info {
-    padding: 8rem 2rem;
+    padding: 6rem 2rem;
     text-align: center;
 }
 
@@ -438,8 +438,9 @@ article {
 }
 
 main > article:first-child {
-    text-align: center;
+    /* text-align: center; */
     padding: 2rem;
+    border-bottom: 1px solid var(--border);
 }
 
 fieldset,
@@ -845,4 +846,94 @@ abbr[title] {
 
 .social-header > a {
   padding: 7px;
+}
+/* 
+.home_description {
+  text-align: left;
+} */
+
+.map-container {
+  position: relative;
+  padding-bottom: 30%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe,   
+.map-container object,  
+.map-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+}
+
+/* 5. Mobile –––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 810px) {
+  main > article:first-child {
+    padding-top: 0.8rem;
+  }
+  header > div > div h1 {
+    font-size: 2.25rem;
+  } 
+  header > div > div h2 {
+    font-size: 1rem;
+  } 
+  nav {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  input {
+    width: auto;
+  }
+  textarea {
+    width: auto;
+  }
+  header > div > nav > ul > li:first-child {
+    margin-right: 0;
+}
+  footer > div > nav ul {
+    justify-content: center;
+    padding: 0;
+  }
+  footer > div > nav > ul > li:first-child {
+    flex-basis: 100%;
+  }
+  .entry-header > h2 {
+    font-size: 1.45rem;
+  }
+  .header-info {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .postlist {
+    flex-direction: column;
+  }
+  .post-item {
+    width: auto;
+  }
+
+  .map-container {
+    position: relative;
+    padding-bottom: 60%;
+    padding-top: 20px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .map-container iframe,   
+  .map-container object,  
+  .map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -1,0 +1,18 @@
+<div>
+{% for item in config.extra.organizing_committee -%}
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Affiliation</th>
+        </tr>
+        <tr>
+            <td>{{item.name}}</td>
+            <td>{{item.affiliation}}</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+        </tr>
+    </table>
+{%- endfor %}
+</div>
