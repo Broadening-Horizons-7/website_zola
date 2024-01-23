@@ -25,6 +25,12 @@ collections:
     format: toml-frontmatter
     label: "Other Pages"
     files:
+      - file: "content/_index.md"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "File", name: "file", widget: "file", required: false}
       - file: "content/contact.md"
         label: "Contact Page"
         name: "contact"
@@ -69,12 +75,30 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "File", name: "file", widget: "file", required: false}
-      - file: "content/_index.md"
-        label: "Homepage"
-        name: "homepage"
-        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "File", name: "file", widget: "file", required: false}
+      # - file: "config.toml"
+      #   label: "Config Page"
+      #   name: "config"
+      #   format: "toml"
+      #   fields: 
+      #   - { label: 'Organizing Committee',
+      #       name: 'organizing_committee',
+      #       widget: 'object',
+      #       fields: [
+      #         { label: 'Name', name: 'name', widget: 'string', required: false},
+      #         { label: 'Affiliation', name: 'affiliation', widget: 'string', required: false },
+      #         { label: 'Link', name: 'link', widget: 'string', required: false},
+      #       ],
+      #     } 
+      #   - { label: 'Scientific Committee',
+      #       required: false,
+      #       name: 'scientific_committee',
+      #       widget: 'object',
+      #       fields: [
+      #         { label: 'Name', name: 'name', widget: 'string', required: false },
+      #         { label: 'Affiliation', name: 'affiliation', widget: 'string', required: false },
+      #         { label: 'Link', name: 'link', widget: 'string', required: false },
+      #       ],
+      #     }
   - name: "program" # Used in routes, e.g., /admin/collections/blog
     format: toml-frontmatter
     label: "Program" # Used in the UI

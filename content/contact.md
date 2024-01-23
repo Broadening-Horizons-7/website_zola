@@ -5,7 +5,9 @@ template = "contact.html"
 
 ## Socials
 
-Reach us on [Facebook](https://facebook.com) and [Instagram](https://instagram.com).
+You can find us on [Facebook](https://facebook.com) and [Instagram](https://instagram.com).
+
+We also offer updates through [RSS](https://wikipedia.org/wiki/Special:Search/rss), you can subscribe with any rss reader using the provided [RSS Feed](/atom.xml).
 
 ## Email
 

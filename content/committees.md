@@ -5,15 +5,8 @@ title = "BH7 Committees"
 
 ## Scientific Committee
 
+{{ scientific_committee() }}
+
 ## Organizing Committee
 
-{{ committees() }}
-
-Luca Volpi
-Licia de Vito
-Federico Cappella 
-Chiara Reali
-Valentina Oselini
-Marinella Ceravolo
-Nathalie Kallas
-Andrea Titolo	
+{{ org_committee() }}

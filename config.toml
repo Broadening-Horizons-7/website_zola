@@ -50,13 +50,7 @@ name = "Broadening Horizons 7"
 location = "Sapienza University, Rome TBA-TBA 2025"
 email = "bh7.sapienza@uniroma1.it"
 
-scientific_committee = []
-
-organizing_committee = [
-    {name = "Luca Volpi", affiliation = "", link = ""}
-]
-
-footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+# footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 social = [
     {link = "mailto:$EMAIL_ADDRESS", name = "Email"},
@@ -76,6 +70,20 @@ navbar_items = [
     { url = "/program/", name = "Program" },
     { url = "/contact/", name = "Contact" },
     { url = "/committees/", name = "Committees" }
+]
+
+scientific_committee = [
+     {name = "", affiliation = "", link = ""}
+]
+organizing_committee = [
+    {name = "Luca Volpi", affiliation = "Universidad Autónoma de Madrid", link = "https://orcid.org/0000-0002-6045-0404"},
+    {name = "Nathalie Kallas", affiliation = "Freie Universität Berlin", link = "https://www.geschkult.fu-berlin.de/en/e/vaa/vaa/mitarbeiter/mitarbeiter_drittmittel/Kallas.html"},
+    {name = "Valentina Oselini", affiliation = "University of Milan", link = "https://www.unimi.it/it/ugov/person/valentina-oselini"},
+    {name = "Licia de Vito", affiliation = "Sapienza University of Rome", link = "https://phd.uniroma1.it/web/LICIA-DE-VITO_nP1262297_IT.aspx"},
+    {name = "Federico Cappella", affiliation = "Sapienza University of Rome", link = "https://orcid.org/0000-0003-0195-4925"},
+    {name = "Chiara Reali", affiliation = "University of Wien", link = "https://dshcs.univie.ac.at/ueber-uns/forschungsschwerpunkte/archaeologie-und-materielle-kultur/doktorandinnen/chiara-reali/"},
+    {name = "Marinella Ceravolo", affiliation = "Sapienza University of Rome", link = "https://www.geschkult.fu-berlin.de/en/e/vaa/vaa/mitarbeiter/mitarbeiter_drittmittel/Kallas.html"},
+    {name = "Andrea Titolo", affiliation = "University of Turin", link = "https://orcid.org/0000-0002-7322-8634"}
 ]
 
 [extra.favicon]

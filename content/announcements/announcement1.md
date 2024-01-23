@@ -1,6 +1,6 @@
 +++
 title = "First news"
-date = "2024-01-09"
+date = "2024-01-02"
 +++
 
 First news. Testing netlify CMS

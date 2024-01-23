@@ -5,8 +5,10 @@
 </h1>
 {{ page.content | safe }}
 <article class="form">
-    <form class="" accept-charset="UTF-8" action="https://example.com" method="POST" role="form">
-    
+    <form class="" accept-charset="UTF-8" action="https://api.web3forms.com/submit" method="POST" role="form">
+        <input type="hidden" name="from_name" value="BH7 Contact form">
+        <input type="hidden" name="access_key" value="59810679-46a6-4613-8282-04230ece31cb">
+        <input type="hidden" name="redirect" value="{{config.base_url}}/success/">
         <label class="" for="name">Your Name</label>
         <input type="text" id="name" name="name" class="" required="" placeholder=" " aria-labelledby="name">
     
@@ -15,7 +17,8 @@
         <div class="requirements f6 gray glow i ph3 overflow-hidden">
           An email address is required.
         </div>
-    
+        <label class="" for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" aria-labelledby="subject" />
         <label class="" for="message">Message</label>
         <textarea id="message" name="message" class="" aria-labelledby="message"></textarea>
         <br>

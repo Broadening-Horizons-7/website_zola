@@ -1,19 +1,27 @@
 - [x] Add social icons in footer
 - [x] Add socials in contact
-- [ ] Mobile responsiveness
+- [x] Mobile responsiveness
 - [x] Remove dark mode
 - [x] Refine CMS
   - [x] Program editing
   - [ ] add preview links (https://decapcms.org/docs/deploy-preview-links/)
 - [x] Add icons in header?
 - [x] Add sponsor gallery
-- [ ] Add conference description
-- [ ] Freeform or netlify for email form
-- [ ] Update venue
+- [x] Add conference description
+- [ ] web3forms or netlify for email form
+  - [x] Form success page
+  - [ ] Use actual email
+- [x] Update venue
+- [ ] Session text to be corrected
 - [x] Cover image
 - [x] Deploy on netlify
   - [ ] Custom domain
 - [x] Image gallery with logos of sponsors
   - [x] Use the cms image gallery for the sponsors
-- [ ] Committee table like bh6
-- [ ] Session in folder and each session a page
+- [x] Committees table like bh6
+  - [x] Style tables
+    - [x] Prevent overflow on mobile
+  - [x] Maybe in toml frontmatter so it is editable?
+    - [ ] Put in cms, see: https://zola.discourse.group/t/netlify-cms-image-widget-zola/717/2? Does not work because of array style, study toml table structure
+- [/] Put cover image in frontmatter?
+- [ ] Session in folder and each session a page?

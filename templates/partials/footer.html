@@ -2,8 +2,12 @@
     <div>
         <nav class="powered-by">
             <ul>
-                <li>{{ now() | date(format="%Y") }} © {{ config.author }} - <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a></li>
+                <li><small>Powered by <a href="https://getzola.org">Zola</a> & inspired by <a href="https://github.com/theNewDynamic/gohugo-theme-ananke">Ananke</a></small></li>
+                <li><small>{{ now() | date(format="%Y") }} © {{ config.author }} - <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a></small></li>
                 {{macros::render_social_icons()}}
+            </ul>
+            <ul>
+                
             </ul>
         </nav>
     </div>

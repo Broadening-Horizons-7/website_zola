@@ -1,0 +1,16 @@
+<div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Affiliation</th>
+        </tr>
+        {% for item in config.extra.scientific_committee -%}
+        <tr>
+            <td>
+                <a href="{{item.link}}">{{item.name}}</a>
+            </td>
+            <td>{{item.affiliation}}</td>
+        </tr>
+        {%- endfor %}
+    </table>
+</div>
