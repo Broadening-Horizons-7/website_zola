@@ -47,7 +47,7 @@ highlight_theme = "base16-ocean-dark"
 [extra]
 # Put all your custom variables here
 name = "Broadening Horizons 7"
-location = "Sapienza University, Rome TBA-TBA 2025"
+location = "Sapienza University, Rome 24-28 February 2025"
 email = "bh7.sapienza@uniroma1.it"
 
 # footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -63,20 +63,20 @@ social = [
 navbar_items = [
     { url = "/", name = "Home" },
     { url = "/announcements/", name = "Announcements" },
-    { url = "/sponsors/", name = "Sponsors" },
-    { url = "/venue/", name = "Venue" },
+    { url = "/committees/", name = "Committees" },
     { url = "/registration/", name = "Registration" },
     { url = "/call/", name = "Call for Papers" },
     { url = "/program/", name = "Program" },
+    { url = "/venue/", name = "Venue" },
+    { url = "/sponsors/", name = "Sponsors" },
     { url = "/contact/", name = "Contact" },
-    { url = "/committees/", name = "Committees" }
 ]
 
 scientific_committee = [
      {name = "", affiliation = "", link = ""}
 ]
 organizing_committee = [
-    {name = "Luca Volpi", affiliation = "Universidad Autónoma de Madrid", link = "https://orcid.org/0000-0002-6045-0404"},
+    {name = "Luca Volpi", affiliation = "Universidad Autónoma de Madrid", link = "https://civis3i.univ-amu.fr/en/luca-volpi"},
     {name = "Nathalie Kallas", affiliation = "Freie Universität Berlin", link = "https://www.geschkult.fu-berlin.de/en/e/vaa/vaa/mitarbeiter/mitarbeiter_drittmittel/Kallas.html"},
     {name = "Valentina Oselini", affiliation = "University of Milan", link = "https://www.unimi.it/it/ugov/person/valentina-oselini"},
     {name = "Licia de Vito", affiliation = "Sapienza University of Rome", link = "https://phd.uniroma1.it/web/LICIA-DE-VITO_nP1262297_IT.aspx"},
