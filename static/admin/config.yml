@@ -13,6 +13,7 @@ collections:
     folder: "content/announcements" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: announcements/{{slug}}
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     fields: # The fields for each document, usually in front matter
@@ -34,6 +35,7 @@ collections:
       - file: "content/contact.md"
         label: "Contact Page"
         name: "contact"
+        preview_path: contact
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -41,6 +43,7 @@ collections:
       - file: "content/call.md"
         label: "Call for Papers"
         name: "call for papers"
+        preview_path: call
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -48,6 +51,7 @@ collections:
       - file: "content/registration.md"
         label: "Registration"
         name: "registration"
+        preview_path: registration
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -55,6 +59,7 @@ collections:
       - file: "content/venue.md"
         label: "Venue"
         name: "venue"
+        preview_path: venue
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -62,6 +67,7 @@ collections:
       - file: "content/committees.md"
         label: "Committees"
         name: "committees"
+        preview_path: committees
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -71,6 +77,7 @@ collections:
         name: "sponsors"
         media_folder: "" # Save images in the post's own folder instead of the static folder
         public_folder: ""
+        preview_path: sponsors
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -103,8 +110,9 @@ collections:
     format: toml-frontmatter
     label: "Program" # Used in the UI
     folder: "content/program" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     slug: "{{slug}}/index" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: program/{{slug}}
     media_folder: "" # Save images in the post's own folder instead of the static folder
     public_folder: ""
     fields: # The fields for each document, usually in front matter
