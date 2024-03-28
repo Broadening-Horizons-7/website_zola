@@ -115,7 +115,9 @@ body > header {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-    padding-top: 1.5rem;
+  padding-top: 1.5rem;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 header>nav a.current,
@@ -200,19 +202,19 @@ h3 {
 /* Reduce header size on mobile */
 @media only screen and (max-width: 810px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   h4 {
-    font-size: 0.75rem;
+    font-size: 1.75rem;
   }
 }
 
@@ -930,10 +932,10 @@ abbr[title] {
     margin-bottom: 2rem;
   }
   input {
-    width: auto;
+    width: 100%;
   }
   textarea {
-    width: auto;
+    width: 100%;
   }
   header > div > nav > ul > li:first-child {
     margin-right: 0;
