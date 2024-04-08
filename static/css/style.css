@@ -86,6 +86,7 @@ body > * {
 body > header {
     background-color: var(--bg-black);
     color: var(--bg);
+    -webkit-text-fill-color: initial;
     border-bottom: 1px solid var(--border);
     box-shadow: 0 .125rem .25rem var(--text-lighter);
     text-align: center;
@@ -341,6 +342,7 @@ footer > div > nav a:visited {
 
 header > div > nav a,
 footer > div > nav a {
+  -webkit-text-fill-color: initial;
   /* display: inline-block; */
   /* vertical-align: middle; */
   transform: translateZ(0);
