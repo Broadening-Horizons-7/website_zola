@@ -1,5 +1,6 @@
 +++
 title = "Sessions"
+date = "2024-04-03"
 +++
 
 ## Session 1: Exploring Archaeology as a Global Science.

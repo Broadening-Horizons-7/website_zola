@@ -3,6 +3,8 @@ title = "BH7 Venue"
 template = "venue.html"
 +++
 
+Sapienza University of Rome has a long tradition in Near Eastern studies spanning various areas of research covering the Near East, Egypt and Eastern Mediterranean from the prehistory to the late Islamic period. Its interdisciplinary, collaborative and international environment s an ideal venue for the next Broadening Horizons. With an estimated number of 100-150 participants and a host of international keynote speakers, the BH conference is an ideal forum, through which Sapienza students and researchers can engage with other colleagues from many other universities and countries. 
+
 **Address**:
 
 Sapienza University of Rome, Edificio Marco Polo 
