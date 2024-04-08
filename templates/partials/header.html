@@ -13,15 +13,19 @@
                 </li>
                 {%- elif item.url is ending_with("_index.md") -%}
                 {%- set s = get_section(path=item.url) -%}
-                <li><a href="{{s.permalink}}">{{s.title}} &#9660;
+                <li><a href="{{s.permalink}}" {% if item.url == current_path %} aria-current="page" {% endif %}>{{s.title}} &#9660;
                     <ul class="dropdown">
                     {%- for page in s.pages -%}
-                    <li><a href="{{page.permalink}}">{{page.title}}</a></li>
+                    <li><a href="{{page.permalink}} {% if page.permalink == current_path %} aria-current="page" {% endif %}">{{page.title}}</a></li>
                     {%- endfor -%}
                     </ul>
                 </li>
                 {% else %}
-                <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                <li class="nav-item">
+                    <a href="{{ config.base_url ~ item.url }}"
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
                 {%- endif-%}
                 {% endfor %}
             </ul>
@@ -50,15 +54,19 @@
                 </li>
                 {%- elif item.url is ending_with("_index.md") -%}
                 {%- set s = get_section(path=item.url) -%}
-                <li><a href="{{s.permalink}}">{{s.title}} &#9660;
+                <li><a href="{{s.permalink}}" {% if s.path == current_path %} aria-current="page" {% endif %}>{{s.title}} &#9660;
                     <ul class="dropdown">
                     {%- for page in s.pages -%}
-                    <li><a class="bg-black" href="{{page.permalink}}">{{page.title}}</a></li>
+                    <li><a class="bg-black" href="{{page.permalink}}"  {% if page.path == current_path %} aria-current="page" {% endif %}>{{page.title}}</a></li>
                     {%- endfor -%}
                     </ul>
                 </li>
                 {% else %}
-                <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                <li class="nav-item">
+                    <a href="{{ config.base_url ~ item.url }}"
+                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
+                    </a>
+                </li>
                 {%- endif-%}
                 {% endfor %}
             </ul>

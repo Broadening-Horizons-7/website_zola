@@ -62,11 +62,11 @@ social = [
 # trailing slashes are needed for the aria-current page in header.html to work
 navbar_items = [
     { url = "/", name = "Home" },
-    { url = "/announcements", name = "Announcements" },
+    { url = "/announcements/", name = "Announcements" },
     { url = "about/_index.md", name = "About BH7", parent = "true" },
-    { url = "/venue", name = "Venue" },
-    { url = "/sponsors", name = "Sponsors" },
-    { url = "/contact", name = "Contact" },
+    { url = "/venue/", name = "Venue" },
+    { url = "/sponsors/", name = "Sponsors" },
+    { url = "/contact/", name = "Contact" },
     # { url = "/registration/", name = "Registration" },
     # { url = "/call/", name = "Call for Papers" },
     # { url = "/program/", name = "Program" },
