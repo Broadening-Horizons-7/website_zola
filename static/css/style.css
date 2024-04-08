@@ -246,10 +246,6 @@ header > div > nav a {
   padding-right: 0.3rem;
 }
 
-header > div > nav a:hover {
-  /* background: var(--bg-footer); */
-}
-
 header > div > nav ul {
   list-style: none;
   display: flex;
@@ -360,8 +356,7 @@ footer > div > nav a:hover {
   color: var(--bg);
 }
 
-header > div > nav a:before,
-footer > div > nav a:before {
+header > div > nav a:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -376,10 +371,7 @@ footer > div > nav a:before {
 }
 header > div > nav a:active:before, 
 header > div > nav a:focus:before, 
-header > div > nav a:hover:before,
-footer > div > nav a:active:before, 
-footer > div > nav a:focus:before, 
-footer > div > nav a:hover:before {
+header > div > nav a:hover:before {
   right: 0;
   left: 0;
 }
@@ -980,6 +972,7 @@ abbr[title] {
   }
   header > div > div h1 {
     font-size: 2.8rem;
+    margin-top: 1rem;
   } 
   header > div > div h2 {
     font-size: 1rem;
@@ -999,6 +992,7 @@ abbr[title] {
   }
   header > div > nav > ul > li:first-child {
     margin-right: 0;
+    padding-left: 0;
 }
   footer > div > nav ul {
     justify-content: center;
@@ -1014,7 +1008,7 @@ abbr[title] {
     font-size: 1.45rem;
   }
   .header-info {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
   }
   .postlist {
@@ -1050,8 +1044,13 @@ abbr[title] {
   }
   
   header > div > nav a:hover{
-    background: var(--accent);
+    color: var(--bg-footer);
     text-decoration: none;
+  }
+
+  header > div > nav a::before{
+    transition: none;
+    background: none;
   }
   
   header > div > nav ul{
