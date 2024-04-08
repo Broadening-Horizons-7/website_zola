@@ -62,14 +62,14 @@ social = [
 # trailing slashes are needed for the aria-current page in header.html to work
 navbar_items = [
     { url = "/", name = "Home" },
-    { url = "/announcements/", name = "Announcements" },
-    { url = "/committees/", name = "Committees" },
-    { url = "/registration/", name = "Registration" },
-    { url = "/call/", name = "Call for Papers" },
-    { url = "/program/", name = "Program" },
-    { url = "/venue/", name = "Venue" },
-    { url = "/sponsors/", name = "Sponsors" },
-    { url = "/contact/", name = "Contact" },
+    { url = "/announcements", name = "Announcements" },
+    { url = "about/_index.md", name = "About BH7", parent = "true" },
+    { url = "/venue", name = "Venue" },
+    { url = "/sponsors", name = "Sponsors" },
+    { url = "/contact", name = "Contact" },
+    # { url = "/registration/", name = "Registration" },
+    # { url = "/call/", name = "Call for Papers" },
+    # { url = "/program/", name = "Program" },
 ]
 
 scientific_committee = [
@@ -82,7 +82,7 @@ organizing_committee = [
     {name = "Licia de Vito", affiliation = "Sapienza University of Rome", link = "https://phd.uniroma1.it/web/LICIA-DE-VITO_nP1262297_IT.aspx"},
     {name = "Federico Cappella", affiliation = "Sapienza University of Rome", link = "https://orcid.org/0000-0003-0195-4925"},
     {name = "Chiara Reali", affiliation = "University of Wien", link = "https://dshcs.univie.ac.at/ueber-uns/forschungsschwerpunkte/archaeologie-und-materielle-kultur/doktorandinnen/chiara-reali/"},
-    {name = "Marinella Ceravolo", affiliation = "Sapienza University of Rome", link = "https://www.geschkult.fu-berlin.de/en/e/vaa/vaa/mitarbeiter/mitarbeiter_drittmittel/Kallas.html"},
+    {name = "Marinella Ceravolo", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/marinellaceravolouniroma1it"},
     {name = "Andrea Titolo", affiliation = "University of Turin", link = "https://orcid.org/0000-0002-7322-8634"}
 ]
 

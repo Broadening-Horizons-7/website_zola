@@ -2,7 +2,7 @@
 <header class="cover" id="cover-image">
     <div class="header-container">
         <nav class="menu">
-            <ul class="nav">
+            <ul>
                 {% set menu_items = config.extra.navbar_items -%}
                 {% for item in menu_items -%}
                 {% if item.url == "/" %}
@@ -11,30 +11,35 @@
                     {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
                     </a>
                 </li>
-                {% else %}
-                <li class="nav-item">
-                    <a href="{{ config.base_url ~ item.url }}"
-                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
-                    </a>
+                {%- elif item.url is ending_with("_index.md") -%}
+                {%- set s = get_section(path=item.url) -%}
+                <li><a href="{{s.permalink}}">{{s.title}} &#9660;
+                    <ul class="dropdown">
+                    {%- for page in s.pages -%}
+                    <li><a href="{{page.permalink}}">{{page.title}}</a></li>
+                    {%- endfor -%}
+                    </ul>
                 </li>
-                {% endif%}
-                {% endfor -%}
+                {% else %}
+                <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                {%- endif-%}
+                {% endfor %}
             </ul>
         </nav>
-        <div class="header-info">
-            <h1>{{ config.extra.name }}</h1>
-            <h2>{{ config.extra.location }}</h2>
-            <ul>
-                {{macros_header::render_social_icons()}}
-            </ul>
-        </div>
+            <div class="header-info">
+                <h1>{{ config.extra.name }}</h1>
+                <h2>{{ config.extra.location }}</h2>
+                <ul>
+                    {{macros_header::render_social_icons()}}
+                </ul>
+            </div>
     </div>
 </header>
 {% else %}
 <header>
     <div>
         <nav class="menu">
-            <ul class="nav">
+            <ul>
                 {% set menu_items = config.extra.navbar_items -%}
                 {% for item in menu_items -%}
                 {% if item.url == "/" %}
@@ -43,14 +48,19 @@
                     {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
                     </a>
                 </li>
-                {% else %}
-                <li class="nav-item">
-                    <a href="{{ config.base_url ~ item.url }}"
-                    {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
-                    </a>
+                {%- elif item.url is ending_with("_index.md") -%}
+                {%- set s = get_section(path=item.url) -%}
+                <li><a href="{{s.permalink}}">{{s.title}} &#9660;
+                    <ul class="dropdown">
+                    {%- for page in s.pages -%}
+                    <li><a class="bg-black" href="{{page.permalink}}">{{page.title}}</a></li>
+                    {%- endfor -%}
+                    </ul>
                 </li>
-                {% endif%}
-                {% endfor -%}
+                {% else %}
+                <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+                {%- endif-%}
+                {% endfor %}
             </ul>
         </nav>
     </div>
@@ -59,3 +69,20 @@
 {%endif%}
 
 
+
+        {# <nav class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="/about">About BH7 &#9660;</a>
+            <ul class="dropdown">
+                <li><a href="#">Theme</a></li>
+                <li><a href="#">Sessions</a></li>
+                <li><a href="#">Committees</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav> #}
