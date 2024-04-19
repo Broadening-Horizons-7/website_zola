@@ -13,14 +13,18 @@
                 </li>
                 {%- elif item.url is ending_with("_index.md") -%}
                 {%- set s = get_section(path=item.url) -%}
+                {%- if s.extra.hide -%} {% else %}
                 <li><a href="{{s.permalink}}" {% if item.url == current_path %} aria-current="page" {% endif %}>{{s.title}} &#9660;
                     <ul class="dropdown">
                     {%- for page in s.pages -%}
+                    {%- if page.extra.hide -%} {%- else -%}
                     <li><a href="{{page.permalink}} {% if page.permalink == current_path %} aria-current="page" {% endif %}">{{page.title}}</a></li>
+                    {%- endif -%}
                     {%- endfor -%}
                     </ul>
                 </li>
-                {% else %}
+                {% endif %}
+                {% else %} 
                 <li class="nav-item">
                     <a href="{{ config.base_url ~ item.url }}"
                     {%if item.url == current_path %} aria-current="page" {% endif %}>{{ item.name }}
@@ -32,6 +36,7 @@
         </nav>
             <div class="header-info">
                 <h1>{{ config.extra.name }}</h1>
+                {# <h1><img src="/img/logo_long.png" alt="" width="500"></h1> #}
                 <h2>{{ config.extra.location }}</h2>
                 <ul>
                     {{macros_header::render_social_icons()}}

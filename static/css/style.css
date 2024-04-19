@@ -69,6 +69,7 @@ html {
 body {
     color: var(--text);
     background-color: var(--bg);
+    -webkit-text-fill-color: initial;
     font-size: 1.15rem;
     line-height: 1.5;
     display: grid;
@@ -86,7 +87,6 @@ body > * {
 body > header {
     background-color: var(--bg-black);
     color: var(--bg);
-    -webkit-text-fill-color: initial;
     border-bottom: 1px solid var(--border);
     box-shadow: 0 .125rem .25rem var(--text-lighter);
     text-align: center;
@@ -342,7 +342,7 @@ footer > div > nav a:visited {
 
 header > div > nav a,
 footer > div > nav a {
-  -webkit-text-fill-color: initial;
+  color: var(--bg);
   /* display: inline-block; */
   /* vertical-align: middle; */
   transform: translateZ(0);
@@ -1074,4 +1074,12 @@ abbr[title] {
     align-items: flex-start;
     padding-left: 4rem;
   }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 2rem;
 }
