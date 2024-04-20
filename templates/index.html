@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
+<article class="home-info">
+      <h1>
+        <img src="/img/bh7_logo_long_black.png" alt="BH7 Logo" width="650">
+      </h1>
+      <h2>{{ config.extra.location }}</h2>
+      <ul>
+          {{macros_header::render_home_icons()}}
+      </ul>
+</article>
 <article class="home_description">
   {{ section.content | safe}}
 </article>

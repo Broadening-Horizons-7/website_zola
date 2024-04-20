@@ -105,11 +105,6 @@ body > header {
     background-size: cover !important;
 }
 
-.header-info {
-    padding: 6rem 2rem;
-    text-align: center;
-}
-
 .header-container {
     background-color: var(--bg-dark-transparent);
 }
@@ -289,19 +284,6 @@ header > div > nav ul ul {
   width: 100%;
 }
 
-header > div > div h2 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  font-weight: 100;
-  color: var(--bg-darker);
-}
-
-header > div > div h1 {
-  font-size: 5rem;
-  margin-bottom: 0;
-  line-height: 1.25;
-  font-weight: 200;
-}
 
 /* Footer */
 footer > div > nav ul,
@@ -513,7 +495,7 @@ article {
 main > article:first-child {
     /* text-align: center; */
     padding: 2rem;
-    border-bottom: 1px solid var(--border);
+    /* border-bottom: 1px solid var(--border); */
 }
 
 fieldset,
@@ -779,6 +761,25 @@ abbr[title] {
   width: 1px;
 }
 
+
+.home-info {
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+main > .home-info {
+  border-bottom: none;
+}
+
+.home-info > h2 {
+font-size: 1.5rem;
+margin-top: 1rem;
+font-weight: 100;
+color: var(--text-light);
+font-style: italic;
+}
+
+
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
@@ -913,12 +914,12 @@ abbr[title] {
   font-style: italic;
 }
 
-.social-header {
+.social-home {
   display: inline-block
 }
 
-.social-header > a {
-  padding: 7px;
+.social-home > a {
+  padding: 8px;
 }
 /* 
 .home_description {
@@ -976,7 +977,7 @@ abbr[title] {
     font-size: 2.8rem;
     margin-top: 1rem;
   } 
-  header > div > div h2 {
+  .home-info > h2 {
     font-size: 1rem;
   } 
   nav {
@@ -1009,7 +1010,7 @@ abbr[title] {
   .entry-header > h2 {
     font-size: 1.45rem;
   }
-  .header-info {
+  .home-info {
     padding: 1rem 1rem;
     text-align: center;
   }
