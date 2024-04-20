@@ -4,6 +4,10 @@
 <h1>
   {{ section.title }}
 </h1>
+{% if section.pages | length < 1 %}
+<p>There is nothing here yet, but more will come soon, stay tuned!</p>
+{% endif %}
+
 <div class="postlist">
     {% for page in paginator.pages %}
         <article class="post-item">

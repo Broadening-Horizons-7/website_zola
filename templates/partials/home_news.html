@@ -1,4 +1,6 @@
 {% set news = get_section(path="announcements/_index.md") %}
+{% if news.pages | length < 1 %}
+{% else %}
 <h1>Recent Announcements</h1>
 {% for page in news.pages | slice(end=3) %}
 <article class="post-entry">
@@ -17,4 +19,5 @@
 <nav class="pagination">
     <a class="next" href="/announcements">See all the announcements »</a>
 </nav>
+{% endif %}
 {% endif %}
