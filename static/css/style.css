@@ -251,7 +251,7 @@ header > div > nav ul {
 
 header > div > nav li {
   position: relative;
-  padding-right: 3rem;
+  padding-right: 2rem;
   /* width: 100%; */
   text-align: center;
 }
