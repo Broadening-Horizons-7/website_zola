@@ -22,6 +22,21 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD",  date_format: "YYYY-MM-DD", time_format: "false" }
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "File", name: "file", widget: "file", required: false}
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
+    format: toml-frontmatter
+    label: "About BH7" # Used in the UI
+    folder: "content/about" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: about/{{slug}}
+    media_folder: "" # Save images in the post's own folder instead of the static folder
+    public_folder: ""
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "announcements"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD",  date_format: "YYYY-MM-DD", time_format: "false" }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "File", name: "file", widget: "file", required: false}
   - name: "page"
     format: toml-frontmatter
     label: "Other Pages"
