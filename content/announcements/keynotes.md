@@ -1,6 +1,7 @@
 +++
 title = "They said yes! About the keynote speakers"
 date = "2024-03-24"
+draft = true
 +++
 
 First news. Testing netlify CMS
