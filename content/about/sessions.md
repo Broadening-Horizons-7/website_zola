@@ -13,7 +13,7 @@ _Keynote Speaker: TBA_
 
 The study of ancient economic systems plays a pivotal role in reconstructing past societies. Subsistence strategies, resource control and management, trade dynamics, and the acquisition of luxury goods and essential raw materials mirror the social and political organization of ancient communities, and their interactions with each other. Material culture and textual sources reveal diverse micro and macro aspects of these complex intertwined systems on both rural and urban scales. This session invites papers that analyze ancient economic systems drawing evidence from textual, archaeological, or combined sources employing theoretical approaches,  traditional or modern methodologies.
 
-## Session 3: Urban and Landscape Studies: Finding Approaches to Interpret Ancient Cities and Countryside. 
+## Session 3: Urban and Landscape Studies: Finding Interpretative Approaches. 
 _Keynote Speaker: TBA_
 
 Landscape studies fuelled debates on urban and rural environments in the ancient world, focusing on settlement patterns and territorial socio-economic strategies of cities. Analyzing the diachronic development of the ancient socio-economic landscape involves considerations such as resource exploitation, communication networks, and demography. Similarly, a synergy of geological, paleo-environmental, and textual datasets may shed light on the relationships between cities, rural, and pastoral communities. This session invites papers that encompass both theoretical and empirical approaches, dealing with urbanism and its definition in different historical and geographical contexts, examining interactions between urban and non-urban settlements, and the exploration of long-term landscape change patterns in different regions.
