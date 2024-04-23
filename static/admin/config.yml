@@ -58,7 +58,7 @@ collections:
           - {label: "File", name: "file", widget: "file", required: false}
       - file: "content/call.md"
         label: "Call for Papers"
-        name: "call for papers"
+        name: "call"
         preview_path: call
         fields:
           - {label: "Title", name: "title", widget: "string"}
