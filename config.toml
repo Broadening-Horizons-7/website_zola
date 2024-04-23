@@ -67,8 +67,8 @@ navbar_items = [
     { url = "/venue/", name = "Venue" },
     { url = "/sponsors/", name = "Sponsors" },
     { url = "/contact/", name = "Contact" },
-    # { url = "/registration/", name = "Registration" },
     # { url = "/call/", name = "Call for Papers" },
+    # { url = "/registration/", name = "Registration" },
     # { url = "/program/", name = "Program" },
 ]
 
