@@ -1,7 +1,7 @@
 +++
 layout = "announcements"
 title = "Call for Papers is out!"
-date = "2024-04-24Tfam4/24/20240e"
+date = "2024-04-23"
 draft = "false"
 +++
 The organizing committee is happy to announce that the Call for Papers for the 7th Edition of the Broadening Horizons Conference is now open! We welcome both papers and posters submission. The call will close on **September 30th, 2024**. 
