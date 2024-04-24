@@ -3,7 +3,7 @@
 base_url = "https://www.broadeninghorizons7.it"
 
 # The site title and description; used in feeds by default.
-title = "BH7"
+title = "Broadening Horizons 7"
 description = "Broadening Horizons 7 Conference"
 # The default language, used in RSS
 default_language = "en"
@@ -65,7 +65,7 @@ navbar_items = [
     { url = "/announcements/", name = "Announcements" },
     { url = "about/_index.md", name = "About BH7", parent = "true" },
     { url = "/venue/", name = "Venue" },
-    { url = "/sponsors/", name = "Sponsors" },
+    { url = "/collaborations/", name = "Collaborations" },
     { url = "/contact/", name = "Contact" },
     # { url = "/call/", name = "Call for Papers" },
     # { url = "/registration/", name = "Registration" },
