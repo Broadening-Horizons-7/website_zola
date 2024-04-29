@@ -32,8 +32,6 @@ Please note that poster proposals should also be submitted [](https://forms.gle/
 
 \* Participants, travelling from the SWANA region, and those living in the SWANA region and wishing to participate online will not be charged any fee.
 
-
-
 **Proceedings**
 
 After the conference, presenters will be invited to submit their papers for review and publication in the Conference Proceedings.
