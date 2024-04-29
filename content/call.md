@@ -25,7 +25,7 @@ Please note that poster proposals should also be submitted [](https://forms.gle/
 |                                                 | Early Fee                               | Late Fee |
 | ----------------------------------------------- | --------------------------------------- | -------- |
 | Paper presentation (in person)*                 | €90                                     | €110     |
-| Paper presentation (online)*                    | €60                                     | 80       |
+| Paper presentation (online)*                    | €60                                     | €80      |
 | Poster presentation (in person)*                | €60                                     | €80      |
 | Simple conference attendance (in person)*       | €60                                     | €80      |
 | Simply wishing to attend the conference online* | Please contact the Organizing Committee | \-       |
