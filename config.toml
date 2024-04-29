@@ -49,6 +49,8 @@ highlight_theme = "base16-ocean-dark"
 name = "Broadening Horizons 7"
 location = "Sapienza University, Rome 10-14 February 2025"
 email = "bh7.sapienza@uniroma1.it"
+images_default_size = 640
+images_sizes = [300, 600]
 
 # footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -67,7 +69,7 @@ navbar_items = [
     { url = "/venue/", name = "Venue" },
     { url = "/collaborations/", name = "Collaborations" },
     { url = "/contact/", name = "Contact" },
-    # { url = "/call/", name = "Call for Papers" },
+    { url = "/call/", name = "Call for Papers" },
     # { url = "/registration/", name = "Registration" },
     # { url = "/program/", name = "Program" },
 ]
