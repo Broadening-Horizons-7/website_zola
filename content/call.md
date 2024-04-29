@@ -6,7 +6,7 @@ hide = "true"
 +++
 The Call for Papers is now open!  
 
-Deadline for submitting abstracts for papers and posters is **September 15th, 2024**. 
+Deadline for submitting abstracts for papers and posters is **September 15th, 2024**. You can also read more on the [BH7 1st Circular](https://www.broadeninghorizons7.it/pdf/BH7%20-%201st%20circular.pdf).
 
 ## **Papers proposal**
 
@@ -35,8 +35,6 @@ Please note that poster proposals should also be submitted [](https://forms.gle/
 ## **Proceedings**
 
 After the conference, presenters will be invited to submit their papers for review and publication in the Conference Proceedings.
-
-
 
 ## **Registration Form**
 
