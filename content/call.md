@@ -1,5 +1,5 @@
 +++
-title = "Call for Papers"
+title = "Call for Papers and Registration"
 
 [extra]
 hide = "true"
@@ -20,7 +20,7 @@ All speakers are requested to observe a 20-minute limit for presenting papers. P
 
 Posters are also welcome and have to be prepared in A1 or A0 format; they will be displayed throughout the conference, and a time slot will be dedicated for a posters session.
 
-Please note that poster proposals should also be submitted [](https://forms.gle/vEf5MszSzWbKczyeA)either using the [following link](https://forms.gle/vEf5MszSzWbKczyeA) or through the embedded form below.
+Please note that poster proposals should also be submitted either using the [following link](https://forms.gle/vEf5MszSzWbKczyeA) or through the embedded form below.
 
 |                                                 | Early Fee                               | Late Fee |
 | ----------------------------------------------- | --------------------------------------- | -------- |
