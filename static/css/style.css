@@ -477,10 +477,20 @@ td:first-child, th:first-child { text-align: left; }
 tr:hover{ background-color: var(--disabled); }
 table img { display: block; }
 
+table {
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
 /* style the table container to avoid breaking the layout */
 div:has(> table) {
   width: 100%;
   overflow: auto;
+}
+
+div > table {
+  display: initial;
 }
 
 table {
@@ -1083,4 +1093,20 @@ font-style: italic;
   margin-right: auto;
   width: 50%;
   padding-bottom: 2rem;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sponsors figure {
+  margin-right: 0.7rem;
+  transition: 0.4s;
+}
+
+.sponsors figure:hover {
+  transform: scale(1.1);
+  border-radius: 0px;
 }
