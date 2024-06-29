@@ -1,5 +1,0 @@
-+++
-title = "Our Sponsors"
-+++
-
-{{ gallery() }}
