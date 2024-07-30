@@ -4,7 +4,7 @@ date = "2024-04-03"
 +++
 ## Session 1: Exploring Archaeology as a Global Science.
 
-*Keynote Speaker: [Marcella Frangipane](https://www.lincei.it/it/content/frangipane-marcella) (Fondazione Sapienza, Rome)*
+*Keynote Speaker: [Marcella Frangipane](https://www.lincei.it/it/content/frangipane-marcella) (Emeritus Professor, Sapienza University; Accademia dei Lincei, Rome)*
 
 This session aims to highlight the current dynamics of interdisciplinarity, multidisciplinarity, and transdisciplinarity in the field of Archaeology. We invite submissions presenting research outcomes, examining archaeological data through diverse  approaches borrowed from other research domains ranging from computational analysis and hard science, to social sciences. We encourage contributions that illustrate the rich tapestry of methodologies shaping modern archaeological research.
 
