@@ -75,17 +75,38 @@ navbar_items = [
 ]
 
 scientific_committee = [
-    {name = "", affiliation = "", link = ""},
+    {name = "Nicolò ", surname = "Marchetti", affiliation = "Alma Mater Studiorum University of Bologna", link = "https://www.unibo.it/sitoweb/nicolo.marchetti"},
+    {name = "Luca ", surname = "Peyronel", affiliation = "University of Milan", link = "https://www.unimi.it/en/ugov/person/luca-peyronel"},
+    {name = "Francesca ", surname = "Balossi Restelli", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/francescabalossiuniroma1it"},
+    {name = "Lorenzo ", surname = "Verderame", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/lorenzoverderameuniroma1it"},
+    {name = "Nicola ", surname = "Laneri", affiliation = "University of Catania", link = "https://www.disum.unict.it/docenti/giovanni.laneri"},
+    {name = "Elisa ", surname = "Rossberger", affiliation = "Freie Universität Berlin", link = "https://www.geschkult.fu-berlin.de/e/vaa/vaa/mitarbeiter/Professorinnen_und_Professoren/Rossberger.html"},
+    {name = "Paola ", surname = "Buzi", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/paolabuziuniroma1it"},
+    {name = "Franco ", surname = "D'Agostino", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/francodagostinouniroma1it"},
+    {name = "Carlo ", surname = "Lippolis", affiliation = "University of Turin", link = "https://beniculturali.campusnet.unito.it/do/docenti.pl/Show?_id=clippoli"},
+    {name = "Augusta ", surname = "McMahon", affiliation = "University of Chicago", link = "https://nelc.uchicago.edu/augusta-mcmahon-0"},
+    {name = "Marta ", surname = "D'Andrea", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/martadandreauniroma1it"},
+    {name = "Agnese ", surname = "Vacca", affiliation = "University of Milan", link = "https://www.unimi.it/it/ugov/person/agnese-vacca"},
+    {name = "Alice ", surname = "Stevenson", affiliation = "University College London", link = "https://www.ucl.ac.uk/archaeology/people/alice-stevenson-professor-museum-archaeology"},
+    {name = "Davide ", surname = "Nadali", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/davidenadaliuniroma1it"},
+    {name = "Johnny Samuele ", surname = "Baldi", affiliation = "French National Centre for Scientific Research (CNRS)", link = "https://www.cnrs.fr/fr/personne/johnny-samuele-baldi"},
+    {name = "Carmen ", surname = "Del Cerro Linares", affiliation = "Universidad Autónoma de Madrid", link = "https://www.uam.es/FyL/del-Cerro-Linares,-Carmen-/1242662636398.htm?language=es&pid=1242658543167&title=del%20Cerro%20Linares,%20Carmen"},
+    {name = "Francisco J. ", surname = "Núñez", affiliation = "University of Warsaw", link = "https://pcma.uw.edu.pl/o-nas/pracownicy/francisco-jesus-nunez-calvo/"},
+    {name = "Tatiana ", surname = "Pedrazzi", affiliation = "Consiglio Nazionale delle Ricerche (CNR)", link = "https://www.ispc.cnr.it/it_it/team/pedrazzi-tatiana/"},
+    {name = "Willemijn ", surname = "Waal", affiliation = "Leiden University", link = "https://www.universiteitleiden.nl/en/staffmembers/willemijn-waal"},
+    {name = "Simone ", surname = "Mühl", affiliation = "Deutsche Archäologische Institut Berlin", link = "https://www.dainst.org/wer-wir-sind/mitarbeitende/simone-muehl/273"},
+    {name = "Anne-Caroline ", surname = "Rendu Loisel", affiliation = "Université de Strasbourg", link = "https://archimede.unistra.fr/laboratoire/les-membres/membres-titulaires/anne-caroline-rendu-loisel"},
+    {name = "Federica ", surname = "Spagnoli", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/user/25103"},
 ]
 organizing_committee = [
-    {name = "Luca Volpi", affiliation = "Universidad Autónoma de Madrid", link = "https://civis3i.univ-amu.fr/en/luca-volpi"},
-    {name = "Nathalie Kallas", affiliation = "Freie Universität Berlin", link = "https://www.geschkult.fu-berlin.de/en/e/vaa/vaa/mitarbeiter/mitarbeiter_drittmittel/Kallas.html"},
-    {name = "Valentina Oselini", affiliation = "University of Milan", link = "https://www.unimi.it/it/ugov/person/valentina-oselini"},
-    {name = "Licia de Vito", affiliation = "Sapienza University of Rome", link = "https://phd.uniroma1.it/web/LICIA-DE-VITO_nP1262297_IT.aspx"},
-    {name = "Federico Cappella", affiliation = "Sapienza University of Rome", link = "https://orcid.org/0000-0003-0195-4925"},
-    {name = "Chiara Reali", affiliation = "University of Wien", link = "https://dshcs.univie.ac.at/ueber-uns/forschungsschwerpunkte/archaeologie-und-materielle-kultur/doktorandinnen/chiara-reali/"},
-    {name = "Marinella Ceravolo", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/marinellaceravolouniroma1it"},
-    {name = "Andrea Titolo", affiliation = "University of Turin", link = "https://orcid.org/0000-0002-7322-8634"}
+    {name = "Luca ", surname = "Volpi", affiliation = "Universidad Autónoma de Madrid", link = "https://civis3i.univ-amu.fr/en/luca-volpi"},
+    {name = "Nathalie ", surname = "Kallas", affiliation = "Freie Universität Berlin", link = "https://www.geschkult.fu-berlin.de/en/e/vaa/vaa/mitarbeiter/mitarbeiter_drittmittel/Kallas.html"},
+    {name = "Valentina ", surname = "Oselini", affiliation = "University of Milan", link = "https://www.unimi.it/it/ugov/person/valentina-oselini"},
+    {name = "Licia ", surname = "De Vito", affiliation = "Sapienza University of Rome", link = "https://phd.uniroma1.it/web/LICIA-DE-VITO_nP1262297_IT.aspx"},
+    {name = "Federico ", surname = "Cappella", affiliation = "Sapienza University of Rome", link = "https://orcid.org/0000-0003-0195-4925"},
+    {name = "Chiara ", surname = "Reali", affiliation = "University of Wien", link = "https://dshcs.univie.ac.at/ueber-uns/forschungsschwerpunkte/archaeologie-und-materielle-kultur/doktorandinnen/chiara-reali/"},
+    {name = "Marinella ", surname = "Ceravolo", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/marinellaceravolouniroma1it"},
+    {name = "Andrea ", surname = "Titolo", affiliation = "University of Turin", link = "https://orcid.org/0000-0002-7322-8634"}
 ]
 [extra.favicon]
 favicon_ico = "/img/favicons/favicon.ico"

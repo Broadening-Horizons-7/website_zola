@@ -4,10 +4,10 @@
             <th>Name</th>
             <th>Affiliation</th>
         </tr>
-        {% for item in config.extra.scientific_committee -%}
+        {% for item in config.extra.scientific_committee | sort(attribute="surname") -%}
         <tr>
             <td>
-                <a href="{{item.link}}">{{item.name}}</a>
+                <a href="{{item.link}}">{{item.name}} {{item.surname}}</a>
             </td>
             <td>{{item.affiliation}}</td>
         </tr>
