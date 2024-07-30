@@ -7,8 +7,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noai, noimageai">
-  <title>{{ config.title }}</title>
-  <meta name="description" content="{{ config.description }}">
+  <title>
+    {%- if page.title -%}
+      {{- page.title }} - {{ config.title -}}
+    {%- elif section.title -%}
+      {{- section.title }} - {{ config.title -}}
+    {%- else -%}
+      {{- config.title -}}
+    {%- endif -%} 
+  </title>
+  
+  {% if page.description %}
+  {% set description = page.description | truncate(length=150) %}
+  {% elif section.description %}
+  {% set description = section.description | truncate(length=150) %}
+  {% elif config.description %}
+  {% set description = config.description | truncate(length=150) %}
+  {% endif %}
+  {% if page.permalink %}
+  {% set url = page.permalink %}
+  {% elif section.permalink %}
+  {% set url = section.permalink %}
+  {% elif config.base_url %}
+  {% set url = config.base_url %}
+  {% endif %}
+  {% if title %}
+  <meta name="title" content="{{ title }}">
+  {% endif %}
+  <meta name="author" content="{{ config.author }}">
+  {% if description %}
+  <meta name="description" content="{{ description }}">
+  {% endif %}
   <link rel="canonical" href="{{ config.base_url }}">
 
   {% block favicons %}
