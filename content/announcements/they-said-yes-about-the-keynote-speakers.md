@@ -1,7 +1,7 @@
 +++
 layout = "announcements"
 title = "They said yes! About the keynote speakers"
-date = "2024-07-30"
+date = "2024-08-28"
 +++
 The Broadening Horizons 7 organizing commitee is glad to annouce the Keynote Speakers for the five thematic sessions. While the names are already available in the session page, here are more information for the more curious!
 
