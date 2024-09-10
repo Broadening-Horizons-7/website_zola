@@ -6,7 +6,7 @@ hide = "true"
 +++
 The Call for Papers is now open!  
 
-Deadline for submitting abstracts for papers and posters is **September 15th, 2024**. You can also read more on the [BH7 1st Circular](https://www.broadeninghorizons7.it/pdf/BH7%20-%201st%20circular.pdf).
+Deadline for submitting abstracts for papers and posters is **October 1st, 2024 (24.00 CET)**. You can also read more on the [BH7 1st Circular](https://www.broadeninghorizons7.it/pdf/BH7%20-%201st%20circular.pdf).
 
 **FOR PAPERS/POSTERS WITH MULTIPLE AUTHORS:** please note that abstracts by multiple co-authors must be submitted once. All authors' names (including those of non-attending co-authors) should be listed in the dedicated “Co-authors” field in the "Papers and posters submission" session below. 
 
@@ -28,7 +28,7 @@ Please note that poster proposals should also be submitted either using the [fol
 
 ## **Fees**
 
-|                                                 | Early Fee (by November 30, 2024)        | Late Fee (until January 10, 2025) |
+|                                                 | Early Fee <small>(by November 30, 2024)</small>        | Late Fee <small>(until January 10, 2025)</small> |
 | ----------------------------------------------- | --------------------------------------- | --------------------------------- |
 | Paper presentation (in person)*                 | €90                                     | €110                              |
 | Paper presentation (online)*                    | €60                                     | €80                               |
