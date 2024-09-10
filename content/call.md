@@ -28,13 +28,13 @@ Please note that poster proposals should also be submitted either using the [fol
 
 ## **Fees**
 
-|                                                 | Early Fee                               | Late Fee |
-| ----------------------------------------------- | --------------------------------------- | -------- |
-| Paper presentation (in person)*                 | €90                                     | €110     |
-| Paper presentation (online)*                    | €60                                     | €80      |
-| Poster presentation (in person)*                | €60                                     | €80      |
-| Simple conference attendance (in person)*       | €60                                     | €80      |
-| Simply wishing to attend the conference online* | Please contact the Organizing Committee | \-       |
+|                                                 | Early Fee (by November 30, 2024)        | Late Fee (until January 10, 2025) |
+| ----------------------------------------------- | --------------------------------------- | --------------------------------- |
+| Paper presentation (in person)*                 | €90                                     | €110                              |
+| Paper presentation (online)*                    | €60                                     | €80                               |
+| Poster presentation (in person)*                | €60                                     | €80                               |
+| Simple conference attendance (in person)*       | €60                                     | €80                               |
+| Simply wishing to attend the conference online* | Please contact the Organizing Committee | \-                                |
 
 \* Participants, travelling from the SWANA region, and those living in the SWANA region and wishing to participate online will not be charged any fee.
 
