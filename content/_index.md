@@ -4,7 +4,7 @@ template = "index.html"
 featured_image = "false"
 +++
 
-Broadening Horizons (BH) is a series of international conferences organized by and dedicated to graduate, postgraduate students, and early-career researchers. This conference series deals with the broad field of the human past in Western Asia in pre-Classical times.
+Broadening Horizons (BH) is a series of international conferences organized by and dedicated to graduate, postgraduate students, and early-career researchers. This conference series deals with the broad field of the human past in Western Asia and Egypt in pre-Classical and Classical times.
 
 The seventh edition - Broadening Horizons 7 (BH7) - pivots around the general theme “Changes, Challenges and New Frontiers”, and it will take place in a hybrid format (both in-person and online). The 5-day conference will take place from 10 to 14 February 2025, and it will be hosted at Sapienza University of Rome. Given its international spirit, English will be the official language of the conference. 
 
