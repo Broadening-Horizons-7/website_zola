@@ -6,7 +6,7 @@ hide = "true"
 +++
 Registration to the BH7 Conference is now open!
 
-## Payment
+## Payment information
 
 Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/). 
 
@@ -34,7 +34,7 @@ Please keep in mind that presenters have to be registered for the conference, as
 
 Upon registration you will receive a confirmation by email. A receipt will be issued once the payment is processed. You will also receive a document with the General Terms and Conditions for the registration, which includes the Cancelation and Refund Policy.
 
-## **Fees**
+## Fees
 
 |                                                 | Early Fee <small>(by November 30, 2024)</small>        | Late Fee <small>(until January 10, 2025)</small> |
 | ----------------------------------------------- | --------------------------------------- | --------------------------------- |
@@ -47,7 +47,7 @@ Upon registration you will receive a confirmation by email. A receipt will be is
 \* Participants, travelling from the SWANA region, and those living in the SWANA region and wishing to participate online will not be charged any fee.
 
 
-## **Papers and posters guidelines**
+## Papers and posters guidelines
 
 **Note that the call for papers is now closed!**
 
@@ -56,7 +56,7 @@ All speakers are requested to observe a 20-minute limit for presenting papers. P
 Posters are also welcome and have to be prepared in A1 or A0 format; they will be displayed throughout the conference, and a time slot will be dedicated for a posters session.
 
 
-## **Proceedings**
+## Proceedings
 
 After the conference, presenters will be invited to submit their papers for review and publication in the Conference Proceedings.
 
