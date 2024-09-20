@@ -10,7 +10,7 @@ Registration to the BH7 Conference is now open!
 
 Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/). 
 
-<u> **All the payment process happens on the Una Quantum Website at the following address** </u>: [https://www.unaquantum.com/associati/](https://www.unaquantum.com/associati/). Please see the [following instructions]() to register.
+<u> **All the payment process happens on the Una Quantum Website at the following address** </u>: [https://www.unaquantum.com/associati/](https://www.unaquantum.com/associati/). Please see the [following instructions](https://example.com) to register.
 
 However, the Organizing Committee remains the participant’s sole contact partner. For inquiries related to registration, please contact the Broadening Horizons 7 Organising Committee: [bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it).
 
