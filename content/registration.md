@@ -14,6 +14,12 @@ Conference registration for BH7 is handled by the partner [Una Quantum](https://
 
 However, the Organizing Committee remains the participant’s sole contact partner. For inquiries related to registration, please contact the Broadening Horizons 7 Organising Committee: [bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it).
 
+No payment will be accepted after January 10, 2025. Unfortunately, on-site registration is not possible.
+
+All presenters and non-presenting attendees have to register. In the case of papers by several presenters, each attending author have to pay the registration fee. Non attending co-authors (neither in person nor online) will not be charged any fee.
+
+Please keep in mind that presenters have to be registered for the conference, as otherwise their presentation will be excluded from the final conference program.
+
 The [registration fee](/call#fees) covers the following:
 
 * Entry to all Conference sessions, including the Posters session
@@ -23,12 +29,7 @@ The [registration fee](/call#fees) covers the following:
 * For presenters: publication of the Conference Proceedings
 * Membership to UnaQuantum (Open-source Academy for Archaeologists)
 
-No payment will be accepted after January 10, 2025. Unfortunately, on-site registration is not possible.
-
-All presenters and non-presenting attendees have to register. In the case of papers by several presenters, each attending author have to pay the registration fee. Non attending co-authors (neither in person nor online) will not be charged any fee.
-
-Please keep in mind that presenters have to be registered for the conference, as otherwise their presentation will be excluded from the final conference program.
-
+Please be informed that the registration fee **does not** cover the cost of meals (except those specified above) and lodging.
 
 ## Payment confirmation
 
