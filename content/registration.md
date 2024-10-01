@@ -6,21 +6,23 @@ hide = "true"
 +++
 Registration to the BH7 Conference is now open!
 
-## Payment information
+## Registering to the Conference
 
-Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/). 
+Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/). <u> All the payment process happens on the Una Quantum Website </u>. Please use the following address to register to the conference:
 
-<u> **All the payment process happens on the Una Quantum Website at the following address** </u>: [https://www.unaquantum.com/associati/](https://www.unaquantum.com/associati/). If you need further help, we prepared the [following instructions](https://example.com) to help you through the registration process.
+**[https://www.unaquantum.com/categoria-prodotto/broadening-horizon-7/](https://www.unaquantum.com/categoria-prodotto/broadening-horizon-7/)**.
 
 However, the Organizing Committee remains the participant’s sole contact partner. For inquiries related to registration, please contact the Broadening Horizons 7 Organising Committee: [bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it).
 
-No payment will be accepted after January 10, 2025. Unfortunately, on-site registration is not possible.
+### Payment information
 
-All presenters and non-presenting attendees have to register. In the case of papers by several presenters, each attending author have to pay the registration fee. Non attending co-authors (neither in person nor online) will not be charged any fee.
+No payment will be accepted after January 10, 2025. Unfortunately, <u>on-site registration is not possible</u>.
+
+All presenters and non-presenting attendees have to register. In the case of papers by several presenters, each attending author have to pay the registration fee. Non attending co-authors (neither in person nor online) will not be charged any fee. Please take a look at the [fees table](/registration#fees) below to choose the appropriate payment.
 
 Please keep in mind that presenters have to be registered for the conference, as otherwise their presentation will be excluded from the final conference program.
 
-The [registration fee](/call#fees) covers the following:
+The [registration fee](/registration#fees) covers the following:
 
 * Entry to all Conference sessions, including the Posters session
   conference gadgets (bag with the program, abstract book, and stationary)
