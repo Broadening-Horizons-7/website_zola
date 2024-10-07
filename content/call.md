@@ -4,7 +4,7 @@ title = "Call for Papers and Registration"
 [extra]
 hide = "true"
 +++
-The Call for Papers is now open!  
+The Call for Papers is now closed!  
 
 Deadline for submitting abstracts for papers and posters is **October 1st, 2024 (24.00 CET)**. You can also read more on the [BH7 1st Circular](https://www.broadeninghorizons7.it/pdf/BH7%20-%201st%20circular.pdf).
 
