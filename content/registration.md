@@ -25,7 +25,7 @@ Please keep in mind that presenters have to be registered for the conference, as
 The [registration fee](/registration#fees) covers the following:
 
 * Entry to all Conference sessions, including the Posters session
-  conference gadgets (bag with the program, abstract book, and stationary)
+* Conference gadgets (bag with the program, abstract book, and stationary)
 * Coffee breaks during the conference
 * Social events during the conference
 * For presenters: publication of the Conference Proceedings
@@ -47,17 +47,16 @@ Upon registration you will receive a confirmation by email. A receipt will be is
 | Simple conference attendance (in person)*       | €60                                     | €80                               |
 | Simply wishing to attend the conference online* | Please contact the Organizing Committee | \-                                |
 
-\* Participants, travelling from the SWANA region, and those living in the SWANA region and wishing to participate online will not be charged any fee.
+\* Participants, travelling from the SWANA region, and those living in the SWANA region and wishing to participate online will not be charged any fee. Please get in touch with us by email if this applies to you ([bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it)).
 
 
 ## Papers and posters guidelines
 
 **Note that the call for papers is now closed!**
 
-All speakers are requested to observe a 20-minute limit for presenting papers. Presentations will be given in English with Powerpoint presentations. Please note that the usage of a different software will not be possible due to the hybrid format of the conference.
+All speakers are requested to observe a 20-minute limit for presenting papers. Talks should be given in English with Powerpoint presentations. Please note that the usage of a different software will not be possible due to the hybrid format of the conference.
 
-Posters are also welcome and have to be prepared in A1 or A0 format; they will be displayed throughout the conference, and a time slot will be dedicated for a posters session.
-
+Posters have to be prepared in A1 or A0 format; they will be displayed throughout the conference, and a time slot will be dedicated for a posters session.
 
 ## Proceedings
 
