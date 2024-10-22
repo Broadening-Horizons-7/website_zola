@@ -4,13 +4,13 @@ title = "Registration"
 [extra]
 hide = "true"
 +++
-Registration to the BH7 Conference is now open!
+Registration to the BH7 Conference will open on **November 1st**.
 
 ## Registering to the Conference
 
-Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/). <u> All the payment process happens on the Una Quantum Website </u>. Please use the following address to register to the conference:
+Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/) and will be possible from November 1, 2024. <u> All the payment process happens on the Una Quantum Website </u>. Please use the following address to register to the conference:
 
-**[https://www.unaquantum.com/categoria-prodotto/broadening-horizon-7/](https://www.unaquantum.com/categoria-prodotto/broadening-horizon-7/)**.
+**<https://www.unaquantum.com/categoria-prodotto/broadening-horizon-7/>**.
 
 However, the Organizing Committee remains the participant’s sole contact partner. For inquiries related to registration, please contact the Broadening Horizons 7 Organising Committee: [bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it).
 
@@ -35,20 +35,19 @@ Please be informed that the registration fee **does not** cover the cost of meal
 
 ## Payment confirmation
 
-Upon registration you will receive a confirmation by email. A receipt will be issued once the payment is processed. You will also receive a document with the General Terms and Conditions for the registration, which includes the Cancelation and Refund Policy.
+Upon registration you will receive a confirmation by email. A receipt will be issued once the payment is processed.
 
 ## Fees
 
-|                                                 | Early Fee <small>(by November 30, 2024)</small>        | Late Fee <small>(until January 10, 2025)</small> |
-| ----------------------------------------------- | --------------------------------------- | --------------------------------- |
-| Paper presentation (in person)*                 | €90                                     | €110                              |
-| Paper presentation (online)*                    | €60                                     | €80                               |
-| Poster presentation (in person)*                | €60                                     | €80                               |
-| Simple conference attendance (in person)*       | €60                                     | €80                               |
-| Simply wishing to attend the conference online* | Please contact the Organizing Committee | \-                                |
+|                                                 | Early Fee <small>(by November 30, 2024)</small> | Late Fee <small>(until January 10, 2025)</small> |
+| ----------------------------------------------- | ----------------------------------------------- | ------------------------------------------------ |
+| Paper presentation (in person)*                 | €90                                             | €110                                             |
+| Paper presentation (online)*                    | €60                                             | €80                                              |
+| Poster presentation (in person)*                | €60                                             | €80                                              |
+| Simple conference attendance (in person)*       | €60                                             | €80                                              |
+| Simply wishing to attend the conference online* | Please contact the Organizing Committee         | \-                                               |
 
 \* Participants, travelling from the SWANA region, and those living in the SWANA region and wishing to participate online will not be charged any fee. Please get in touch with us by email if this applies to you ([bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it)).
-
 
 ## Papers and posters guidelines
 
@@ -66,7 +65,6 @@ After the conference, presenters will be invited to submit their papers for revi
 
 Broadening Horizons 7 participants may request official visa invitation letters if needed to help facilitate their travel to Italy. In order to be eligible for a personalized visa letter, you must first register for the conference AND pay your registration fees in full. To request a PDF visa invitation letter, please email [bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it) with a copy of your paid registration.
 
- 
-
 ## Participation Certificates
+
 All registered conference participants will receive a participation certificate on-site when they check in at the registration desk. We understand that such documentation may be used by your institution as evidence of your participation in order to justify reimbursement of expenses. Our participation certificates verify your registration and attendance at BH7, hence you must pick them up in person. Participation certificates do not contain any specific information about presentations as part of the conference program.
