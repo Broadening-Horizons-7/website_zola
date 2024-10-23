@@ -8,9 +8,7 @@ Registration to the BH7 Conference will open on **November 1st**.
 
 ## Registering to the Conference
 
-Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/) and will be possible from November 1, 2024. <u> All the payment process happens on the Una Quantum Website </u>. Please use the following address to register to the conference:
-
-**<https://www.unaquantum.com/categoria-prodotto/broadening-horizon-7/>**.
+Conference registration for BH7 is handled by the partner [Una Quantum](https://www.unaquantum.com/) and will be possible from November 1, 2024. <u> 
 
 However, the Organizing Committee remains the participant’s sole contact partner. For inquiries related to registration, please contact the Broadening Horizons 7 Organising Committee: [bh7.sapienza@uniroma1.it](mailto:bh7.sapienza@uniroma1.it).
 
