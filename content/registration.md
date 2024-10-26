@@ -14,9 +14,13 @@ Conference registration for BH7 is handled by the partner [Una Quantum](https://
 
 ### Payment information
 
-All presenters and non-presenting attendees have to register. In the case of papers by several presenters, each attending author have to pay the registration fee. Non attending co-authors (neither in person nor online) will not be charged any fee. Please take a look at the [fees table](/registration#fees) below to choose the appropriate payment.
+<u> No payment will be accepted after January 10, 2025. </u>
 
-Please keep in mind that presenters have to be registered for the conference, as otherwise their presentation will be excluded from the final conference program.
+Unfortunately, <u>on-site registration is not possible</u>.
+
+All presenters and non-presenting attendees have to register to the conference. In case of papers by several authors, each attending author has to pay the registration fee. Non attending co-authors (neither in person nor online) will not be charged any fee. Please take a look at the [fees table](/registration#fees) below to choose the appropriate payment.
+
+Presentations of non-registered presenters will be excluded from the final conference program
 
 The [registration fee](/registration#fees) covers the following:
 
@@ -28,10 +32,6 @@ The [registration fee](/registration#fees) covers the following:
 * Membership to UnaQuantum (Open-source Academy for Archaeologists)
 
 Please be informed that the registration fee **does not** cover the cost of meals (except those specified above) and lodging.
-
-<u> No payment will be accepted after January 10, 2025. </u>
-
-Unfortunately, <u>on-site registration is not possible</u>.
 
 ## Payment confirmation
 
