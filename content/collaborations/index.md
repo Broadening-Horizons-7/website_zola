@@ -7,7 +7,7 @@ title = "Collaborations"
 <div class="sponsors">
     {{ image(src="img/logo_citta_metropolitana.webp" url = "https://www.cittametropolitanaroma.it/" alt="Città Metropolitana Logo", class = "", height_override = 110, caption = "", loading = "lazy") }}
     {{ image(src="img/logo_roma_capitale.webp" url = "https://www.comune.roma.it/web/it/home.page/" alt="Roma Capitale Logo", class = "", height_override = 110, caption = "", loading = "lazy") }}
-    {{ image(src="img/logo_regione_lazio.webp" url = "https://www.regione.lazio.it/" alt="Regione Lazio Logo", class = "", height_override = 110, caption = "", loading = "lazy") }}
+    <!-- {{ image(src="img/logo_regione_lazio.webp" url = "https://www.regione.lazio.it/" alt="Regione Lazio Logo", class = "", height_override = 110, caption = "", loading = "lazy") }} -->
 </div>
 
 ## Our Partners and Sponsors
