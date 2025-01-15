@@ -977,6 +977,99 @@ font-style: italic;
   font-size: 2.25rem;
 }
 
+/* program table */
+
+.program td{
+  white-space: normal;
+  text-align: center;
+  border-left: 0.02rem solid var(--border);
+}
+
+.program td:last-child {
+  border-right: 0.02rem solid var(--border);
+}
+
+.program th {
+  text-align: center;
+}
+
+.program .session {
+  border-left: 0.1rem solid var(--border);
+  border-right: 0.1rem solid var(--border);
+  /* transform: rotate(180deg); */
+  writing-mode: vertical-rl;
+}
+
+/* This is to avoid having to play with rowspan */
+.program .event-long {
+  padding: 7rem;
+}
+
+.program .event-short {
+  padding: 2rem;
+}
+
+.session1 {
+  background-color: var(--session1);
+}
+
+.session2 {
+  background-color: var(--session2);
+}
+
+.session3 {
+  background-color: var(--session3);
+  color: var(--bg);
+}
+
+.session4 {
+  background-color: var(--session4);
+  color: var(--bg);
+}
+
+.session5 {
+  background-color: var(--session5);
+  color: var(--bg);
+}
+
+
+/* Tabs from https://codepen.io/dcode-software/pen/NWpZjNB */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 400px; */
+}
+
+.tabs-label {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.tabs-radio {
+  display: none;
+}
+
+.tabs-content {
+  order: 1;
+  width: 100%;
+  /* border-bottom: 3px solid #dddddd; */
+  line-height: 1.5;
+  font-size: 1em;
+  display: none;
+  margin-top: 1.5rem;
+}
+
+.tabs-radio:checked + .tabs-label {
+  font-weight: bold;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+.tabs-radio:checked + .tabs-label + .tabs-content {
+  display: initial;
+}
+
 /* 5. Mobile –––––––––––––––––––––––––––––––––––––– */
 
 @media only screen and (max-width: 810px) {
