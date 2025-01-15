@@ -2,6 +2,10 @@
 title = "Program"
 [extra]
 hide="true"
+page_large="true"
 +++
 
-Download the programs
+This is an interactive view of the program. You can click on each talk title to view the abstract. 
+Alternatively, you can download a PDF version of program and Book of Abstract.
+
+{{ program() }}
