@@ -1,7 +1,6 @@
 +++
 title = "Program"
 [extra]
-hide="true"
 page_large="true"
 +++
 
