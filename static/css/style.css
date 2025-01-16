@@ -1208,3 +1208,11 @@ font-style: italic;
   transform: scale(1.1);
   border-radius: 0px;
 }
+
+.tabs-content {
+  font-size: 0.9em;
+}
+
+.tabs-label {
+  font-size: 0.8em;
+}
