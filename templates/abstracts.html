@@ -28,12 +28,12 @@
                         {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
                     {% endfor %}
                     </h3>
-                    <h4><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h4>
+                    <h4><a href="{{ page.path | safe }}">{{ page.title }}</a></h4>
                     <p>
                         {{ page.content | striptags | truncate(length=300) | safe }}
                     </p>
                     <p class="read-more">
-                        <a href="{{ page.permalink }}">Read more...</a>
+                        <a href="{{ page.path }}">Read more...</a>
                     </p>
                     <hr>
                 </div>
@@ -47,12 +47,12 @@
                 {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
                 {% endfor %}
                 </h3>
-                <h4><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h4>
+                <h4><a href="{{ page.path | safe }}">{{ page.title }}</a></h4>
                 <p>
                     {{ page.content | striptags | truncate(length=300) | safe }}
                 </p>
                 <p class="read-more">
-                    <a href="{{ page.permalink }}">Read more...</a>
+                    <a href="{{ page.path }}">Read more...</a>
                 </p>
                 {% if not loop.last %} <hr> {% endif %}
             </article>
@@ -72,12 +72,12 @@
             {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
             {% endfor %}
             </h3>
-            <h4><a href="{{ poster.permalink | safe }}">{{ poster.title }}</a></h4>
+            <h4><a href="{{ poster.path | safe }}">{{ poster.title }}</a></h4>
             <p>
                 {{ poster.content | striptags | truncate(length=300) | safe }}
             </p>
             <p class="read-more">
-                <a href="{{ poster.permalink }}">Read more...</a>
+                <a href="{{ poster.path }}">Read more...</a>
             </p>
             {% if not loop.last %} <hr> {% endif %}
         </article>
