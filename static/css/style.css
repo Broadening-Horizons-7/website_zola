@@ -555,7 +555,6 @@ summary {
   font-weight: bold;
   padding: 0.7rem 1rem;
   margin: -0.7rem -1rem;
-  word-break: break-all;
 }
 
 details[open]>summary+* {
@@ -688,7 +687,7 @@ form {
 label {
   font-size: 0.875rem;
   margin-top: 1rem;
-  margin-bottom: 0.25;
+  margin-bottom: 0.25rem;
   display: block;
   color: var(--text);
   font-weight: 700;
@@ -1037,6 +1036,42 @@ font-style: italic;
   color: var(--bg);
 }
 
+/* Book of abstracts page */
+.keynote span {
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.session {
+  padding: 0.5rem;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.session summary {
+  display: inline-flex;
+  align-items: center;
+}
+
+.session summary h2 {
+  display: inline;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.session article {
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+.session h4 > a {
+  color: var(--text);
+}
+
+.session h4 {
+  font-size: 1.35rem;
+}
 
 /* Tabs from https://codepen.io/dcode-software/pen/NWpZjNB */
 .tabs {
@@ -1207,12 +1242,4 @@ font-style: italic;
 .sponsors figure:hover {
   transform: scale(1.1);
   border-radius: 0px;
-}
-
-.tabs-content {
-  font-size: 0.9em;
-}
-
-.tabs-label {
-  font-size: 0.8em;
 }
