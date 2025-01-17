@@ -1,5 +1,5 @@
 +++
-title = "Debt as Social Currency: The Case of Nippur During Ur Iii"
+title = "Debt as Social Currency: The Case of Nippur During Ur III"
 [extra]
 authors = [
     {name = "Andrea Rebecca", surname = "Marrocchi Savoi"}
