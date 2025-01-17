@@ -1013,6 +1013,17 @@ font-style: italic;
   padding: 2rem;
 }
 
+.program a {
+  color: var(--text);
+  text-decoration: none;
+  font-style: italic;
+}
+
+.program a:hover {
+  /* color: var(--accent); */
+  text-decoration: underline;
+}
+
 .session1 {
   background-color: var(--session1);
 }
@@ -1021,19 +1032,24 @@ font-style: italic;
   background-color: var(--session2);
 }
 
-.session3 {
+.session3, .session3 a {
   background-color: var(--session3);
   color: var(--bg);
 }
 
-.session4 {
+.session4, .session4 a {
   background-color: var(--session4);
   color: var(--bg);
 }
 
-.session5 {
+.session5, .session5 a {
   background-color: var(--session5);
   color: var(--bg);
+}
+
+.session3 a:hover, .session4 a:hover, .session5 a:hover {
+  /* color: var(--accent-light); */
+  text-decoration: underline;
 }
 
 /* Book of abstracts page */
