@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>
+  {{ section.title }}
+</h1>
+
+<div class="postlist">
+    {% for page in section.pages %}
+        <article class="post-item">
+          <div>
+            <p class="post-date">{{page.date}}</p>
+             <h1 class="post-title"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h1>
+              <div class="post-summary">
+                  {{ page.content | striptags | truncate(length=150) | safe }}
+              </div>
+              <div class="read-more">
+                  <a href="{{ page.permalink }}">Read more...</a>
+              </div>
+          </div>
+        </article>
+    {% endfor %}
+    {% set subsections = section.subsections -%}
+    {% for subsection_path in subsections -%}
+    {% set subsection = get_section(path=subsection_path) -%}
+        <article class="post-item">
+          <div>
+             <h1 class="post-title"><a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a></h1>
+              <div class="post-summary">
+                  {{ subsection.content | striptags | truncate(length=150) | safe }}
+              </div>
+              <div class="read-more">
+                  <a href="{{ subsection.permalink }}">Read more...</a>
+              </div>
+          </div>
+        </article>
+    {% endfor %}
+</div>
+{% endblock content %}
