@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>
+  {{ section.title }}
+</h1>
+
+{{ section.content | safe }}
+
+{% set pages = section.pages %}
+{% set session_order = ["1. Exploring Archaeology as a Global Science", "2. Interdisciplinary Approaches to the Study of Ancient Economies", "3. Urban and Landscape Studies: Finding Interpretative Approaches", "4. Crafting Identity and Clusters through Material Culture, Iconography and Texts", "5. Public Engagement and Cultural Heritage. The Role of Communication and Dissemination in the Humanities"] %}  
+{% set grouped_pages = pages | sort(attribute="extra.authors.0.surname") | group_by(attribute="extra.session") %}
+{% set posters = pages | filter(attribute="extra.poster") | sort(attribute="extra.authors.0.surname")  %}
+{% for session in session_order %}
+
+<section id={{ "session-" ~ session | slugify | truncate(length=9, end="") }} class="session">
+    {% if grouped_pages[session] is defined %}
+    <details>
+        <summary><h2>{{ session }}</h2></summary>
+            {% set session_keynotes = grouped_pages[session] | filter(attribute="extra.keynote") %}
+            {# First show keynotes #}
+            {% for page in session_keynotes %}
+            <article class="keynote">
+                <div>
+                    <h3>
+                    <span>Keynote lecture:</span>
+                    {% for author in page.extra.authors %}
+                        {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+                    {% endfor %}
+                    </h3>
+                    <h4><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h4>
+                    <p>
+                        {{ page.content | striptags | truncate(length=300) | safe }}
+                    </p>
+                    <p class="read-more">
+                        <a href="{{ page.permalink }}">Read more...</a>
+                    </p>
+                    <hr>
+                </div>
+            </article>
+            {% endfor %}
+            {# Then show talks #}
+            {% for page in grouped_pages[session] %}
+            {% if page.extra.poster is not defined and page.extra.keynote is not defined %}
+            <article>
+                <h3>{% for author in page.extra.authors %}
+                {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+                {% endfor %}
+                </h3>
+                <h4><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h4>
+                <p>
+                    {{ page.content | striptags | truncate(length=300) | safe }}
+                </p>
+                <p class="read-more">
+                    <a href="{{ page.permalink }}">Read more...</a>
+                </p>
+                {% if not loop.last %} <hr> {% endif %}
+            </article>
+            {% endif %}
+            {% endfor %}
+    </details>
+    {% endif %}
+</section>
+{% endfor %}
+<section id="posters" class="session">
+    <details>
+        <summary><h2>Poster Session</h2></summary>
+        {% for poster in posters %}
+        <article>
+            {# check if div is needed #}
+            <h3>{% for author in poster.extra.authors %}
+            {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+            {% endfor %}
+            </h3>
+            <h4><a href="{{ poster.permalink | safe }}">{{ poster.title }}</a></h4>
+            <p>
+                {{ poster.content | striptags | truncate(length=300) | safe }}
+            </p>
+            <p class="read-more">
+                <a href="{{ poster.permalink }}">Read more...</a>
+            </p>
+            {% if not loop.last %} <hr> {% endif %}
+        </article>
+        {% endfor %}
+    </details>
+</section>
+{% endblock content %}
