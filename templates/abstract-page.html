@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
+{# Extract and set variables for navigation #}
+{% set session_slug = page.extra.session | slugify %}
+{% set last_ancestor = page.ancestors | slice(start=-1) %}
+{% set current_section = get_section(path=last_ancestor.0) %}
+{% set ancestor_page = get_url(path= current_section.path) %}
+{% set sessions_page = get_url(path="about/sessions", trailing_slash=false) %}
 <article>
     <h1>
         {{ page.title }}
@@ -11,5 +17,7 @@
         {% endfor %}
     </h2>
     {{ page.content | safe }}
+    <p>Session: {{page.extra.session}} <sup><a href="{{sessions_page~"#session-"~ session_slug}}">[info]</a></sup></p>
+    <p><a href="{{ancestor_page ~ "#" ~ page.extra.authors[0].surname}}">&larr; Go back to the {{current_section.title}}</a></p>
 </article>
 {% endblock content %}
