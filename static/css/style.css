@@ -1097,6 +1097,17 @@ font-style: italic;
   font-size: 1.35rem;
 }
 
+.program td[id]:target {
+  animation: highlight 1.5s ease-in-out 3;  /* Will repeat 3 times */
+}
+
+@keyframes highlight {
+  50% {
+      background-color: rgba(255, 250, 205, 0.7);  /* Soft light yellow */
+  }
+}
+
+
 /* Tabs from https://codepen.io/dcode-software/pen/NWpZjNB */
 .tabs {
   display: flex;
