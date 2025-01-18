@@ -1,6 +1,5 @@
 +++
-title = "Social Interactions in Neo-Assyrian Palaces from Homeland to Western Provinces: a View from
-Space Syntax Analysis and Integrative Approach"
+title = "Social Interactions in Neo-Assyrian Palaces from Homeland to Western Provinces: a View from Space Syntax Analysis and Integrative Approach"
 [extra]
 authors = [
     {name = "Gaia", surname = "Perego"}
