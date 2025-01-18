@@ -1024,25 +1024,25 @@ font-style: italic;
   text-decoration: underline;
 }
 
-.session1 {
+.session1, #session-1-exploring-archaeology-as-a-global-science {
   background-color: var(--session1);
 }
 
-.session2 {
+.session2, #session-2-interdisciplinary-approaches-to-the-study-of-ancient-economies {
   background-color: var(--session2);
 }
 
-.session3, .session3 a {
+.session3, .session3 a, #session-3-urban-and-landscape-studies-finding-interpretative-approaches {
   background-color: var(--session3);
   color: var(--bg);
 }
 
-.session4, .session4 a {
+.session4, .session4 a, #session-4-crafting-identity-and-clusters-through-material-culture-iconography-and-texts {
   background-color: var(--session4);
   color: var(--bg);
 }
 
-.session5, .session5 a {
+.session5, .session5 a, #session-5-public-engagement-and-cultural-heritage-the-role-of-communication-and-dissemination-in-the-humanities {
   background-color: var(--session5);
   color: var(--bg);
 }
@@ -1050,6 +1050,14 @@ font-style: italic;
 .session3 a:hover, .session4 a:hover, .session5 a:hover {
   /* color: var(--accent-light); */
   text-decoration: underline;
+}
+
+#session-1-exploring-archaeology-as-a-global-science,
+#session-2-interdisciplinary-approaches-to-the-study-of-ancient-economies,
+#session-3-urban-and-landscape-studies-finding-interpretative-approaches,
+#session-4-crafting-identity-and-clusters-through-material-culture-iconography-and-texts,
+#session-5-public-engagement-and-cultural-heritage-the-role-of-communication-and-dissemination-in-the-humanities {
+  padding: 1rem;
 }
 
 /* Book of abstracts page */
