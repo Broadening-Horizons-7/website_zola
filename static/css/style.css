@@ -1145,9 +1145,23 @@ font-style: italic;
   display: initial;
 }
 
+
+.mobile-notice {
+  display: none;
+  background-color: var(--accent-bg);
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: var(--standard-border-radius);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
 /* 5. Mobile –––––––––––––––––––––––––––––––––––––– */
 
 @media only screen and (max-width: 810px) {
+  .mobile-notice {
+    display: block;
+  }
   main > article:first-child {
     padding-top: 0.2rem;
   }
