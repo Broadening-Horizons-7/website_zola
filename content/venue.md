@@ -24,6 +24,10 @@ The closest Tram stop is Scalo S. Lorenzo/Sardi, where you can arrive with Tram 
 <div class="map-container"><iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=12.517826557159426%2C41.89526754883858%2C12.523901760578157%2C41.897763183934735&amp;layer=mapnik&amp;marker=41.89652, 12.5212" style="border: 1px solid black"></iframe></div>
 <p><small><a href="https://www.openstreetmap.org/#map=19/41.89652/12.52086">View Larger Map</a></small></p>
 
+### Conference events
+
+Please take a look at the [events page](/program/events) for more information on the conference social events and their location.
+
 ## Traveling to Rome
 
 Rome is served by two airports: Fiumicino (FCO) and Ciampino (CIA). Both airports are connected to the city center by train and bus services. We recommend Fiumicino airport as it provides a direct train service to the city center. The train station is located in the airport and the train takes you to Termini station in about 30 minutes, with departures scheduled every 15 minutes. Train tickets costs 14€ and can be purchased at the station or online. For more information, visit the [Trenitalia website](https://www.trenitalia.com/en/services/leonardo-express.html).
