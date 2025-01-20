@@ -982,6 +982,17 @@ font-style: italic;
 }
 
 /* program table */
+.tabs-content {
+  min-height: 250px; /* ensures table is always usably tall */
+  max-height: 530px; /* prevents table from becoming too tall */
+  height: auto;
+  overflow: auto;
+}
+
+.tabs-content .program {
+  width: 100%;
+  margin: 0;
+}
 
 .program td{
   white-space: normal;
@@ -991,6 +1002,31 @@ font-style: italic;
 
 .program td:last-child {
   border-right: 0.02rem solid var(--border);
+}
+
+.program tr>th:first-child,
+.program tr>td:first-child {
+  background-color: var(--bg-dark);
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.program tr>th:first-child {
+  background-color: var(--text-dark)
+}
+
+.program tr>th {
+  position: sticky;
+  background-color: var(--text-dark);
+  top: 0;
+  z-index: 3;
+}
+
+/* Special handling for the top-left cell */
+.program tr>th:first-child {
+  background-color: var(--text-dark);
+  z-index: 4; /* Highest z-index to stay on top */
 }
 
 .program th {
