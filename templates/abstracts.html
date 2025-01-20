@@ -20,6 +20,7 @@
             {% set session_keynotes = grouped_pages[session] | filter(attribute="extra.keynote") %}
             {# First show keynotes #}
             {% for page in session_keynotes %}
+            {% set first_author_slug = page.extra.authors[0].surname | slugify  %}
             <article class="keynote" id="{{ page.extra.authors.0.surname}}">
                 <div>
                     <h3>
@@ -32,15 +33,21 @@
                     <p>
                         {{ page.content | striptags | truncate(length=300) | safe }}
                     </p>
-                    <p class="read-more">
-                        <a href="{{ page.path }}">Read more...</a>
-                    </p>
+                    <div class="abstract-footer">
+                        <p class="read-more">
+                            <a href="{{ page.path }}">Read more...</a>
+                        </p>
+                        <p>
+                            <a class="js-only" href="{{ "/program/schedule#" ~ first_author_slug }}">See this talk in the program &rarr;</a>
+                        </p>
+                    </div>
                     <hr>
                 </div>
             </article>
             {% endfor %}
             {# Then show talks #}
             {% for page in grouped_pages[session] %}
+            {% set first_author_slug = page.extra.authors[0].surname | slugify  %}
             {% if page.extra.poster is not defined and page.extra.keynote is not defined %}
             <article id="{{ page.extra.authors.0.surname}}">
                 <h3>{% for author in page.extra.authors %}
@@ -51,9 +58,14 @@
                 <p>
                     {{ page.content | striptags | truncate(length=300) | safe }}
                 </p>
-                <p class="read-more">
-                    <a href="{{ page.path }}">Read more...</a>
-                </p>
+                <div class="abstract-footer">
+                    <p class="read-more">
+                        <a href="{{ page.path }}">Read more...</a>
+                    </p>
+                    <p>
+                        <a class="js-only" href="{{ "/program/schedule#" ~ first_author_slug }}">See this talk in the program &rarr;</a>
+                    </p>
+                </div>
                 {% if not loop.last %} <hr> {% endif %}
             </article>
             {% endif %}
