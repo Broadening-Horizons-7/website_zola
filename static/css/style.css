@@ -981,6 +981,12 @@ font-style: italic;
   font-size: 2.25rem;
 }
 
+.abstract-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* program table */
 .tabs-content {
   min-height: 250px; /* ensures table is always usably tall */
@@ -1195,6 +1201,9 @@ font-style: italic;
 /* 5. Mobile –––––––––––––––––––––––––––––––––––––– */
 
 @media only screen and (max-width: 810px) {
+  .abstract-footer {
+    flex-direction: column;
+  }
   .mobile-notice {
     display: block;
   }
