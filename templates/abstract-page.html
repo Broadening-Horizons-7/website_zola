@@ -18,7 +18,7 @@
         {% endfor %}
     </h2>
     {{ page.content | safe }}
-    <p>Session: {{page.extra.session}} <sup><a href="{{sessions_page~"#session-"~ session_slug}}">[info]</a></sup></p>
+    <p>Session {{page.extra.session}} <sup><a href="{{sessions_page~"#session-"~ session_slug}}">[info]</a></sup></p>
     <div class="abstract-footer">
         <p><a href="{{current_section.path ~ "#" ~ page.extra.authors[0].surname}}">&larr; Go back to the {{current_section.title}}</a></p>
         {% if page.extra.poster is not defined %}
