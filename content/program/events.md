@@ -1,6 +1,7 @@
 +++
 title = "Social Events"
 weight = 3
+draft = true
 +++
 
 **Please note that admission to the events will be allowed by conference ID only!**
