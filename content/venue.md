@@ -10,7 +10,9 @@ Sapienza University of Rome has a long tradition in Near Eastern studies spannin
 Dipartimento Istituto Italiano di Studi Orientali (ISO)  
 Scalo S. Lorenzo RM 21, Circonvallazione Tiburtina 4, 00185, Roma
 
-The talks of the first day of the conference will take place in the Aula Magna on the ground level of the building. The sessions will be in Rooms 106, 107, and 109 on the first floor. A conference office with an information area will be available throughout the conference in Room 110 also on the first floor. 
+More info on the logistics of the conference will be provided soon.
+
+<!-- The talks of the first day of the conference will take place in the Aula Magna on the ground level of the building. The sessions will be in Rooms 106, 107, and 109 on the first floor. A conference office with an information area will be available throughout the conference in Room 110 also on the first floor.  -->
 
 ### Reaching the venue
 
@@ -26,10 +28,12 @@ The closest Tram stop is Scalo S. Lorenzo/Sardi, where you can arrive with Tram 
 
 ### Conference events
 
-Please take a look at the [events page](/program/events) for more information on the conference social events and their location.
+More information on the conference social events will be provided soon.
+
+<!-- Please take a look at the [events page](/program/events) for more information on the conference social events and their location. -->
 
 ## Traveling to Rome
 
 Rome is served by two airports: Fiumicino (FCO) and Ciampino (CIA). Both airports are connected to the city center by train and bus services. We recommend Fiumicino airport as it provides a direct train service to the city center. The train station is located in the airport and the train takes you to Termini station in about 30 minutes, with departures scheduled every 15 minutes. Train tickets costs 14€ and can be purchased at the station or online. For more information, visit the [Trenitalia website](https://www.trenitalia.com/en/services/leonardo-express.html).
 
-If you prefer to arrive by train, Rome is well connected to the rest of Italy and Europe by high-speed trains. The main train station is Termini, which is connected to the Metro A and B lines. Tiburtina station is also a major hub for trains and buses and is connected to the Metro B line. Train services are provided by [Trenitalia](https://www.trenitalia.com/en.html) and [Italo](https://www.italotreno.it/en).
+If you prefer to arrive by train, Rome is well-connected to the rest of Italy and Europe by high-speed trains. The main train station is Termini, which is connected to the Metro A and B lines. Tiburtina station is also a major hub for trains and buses and is connected to the Metro B line. Train services are provided by [Trenitalia](https://www.trenitalia.com/en.html) and [Italo](https://www.italotreno.it/en).
