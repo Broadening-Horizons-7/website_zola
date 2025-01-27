@@ -88,7 +88,7 @@
     <details>
         <summary><h2>Poster Session</h2></summary>
         {% for poster in posters %}
-        <article id="{{ poster.extra.authors.0.surname}}">
+        <article id="{{ poster.extra.authors.0.surname | slugify }}">
             {# check if div is needed #}
             <h3>{% for author in poster.extra.authors %}
             {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
