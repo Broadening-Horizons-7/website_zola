@@ -1,5 +1,5 @@
 +++
-title = "BUILDING SOCIAL IDENTITY. Settlement Organization and Architecture in Eastern Anatolia During the Ubaid and Post-Ubaid Periods"
+title = "Building Social Identity. Settlement Organization and Architecture in Eastern Anatolia During the Ubaid and Post-Ubaid Periods"
 [extra]
 authors = [
     {name = "Elisa", surname = "Biancifiori"}
