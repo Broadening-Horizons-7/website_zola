@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>
+  {{ section.title }}
+</h1>
+
+{{ section.content | safe }}
+
+{% set pages = section.pages %}
+{% set session_order = ["1. Exploring Archaeology as a Global Science", "2. Interdisciplinary Approaches to the Study of Ancient Economies", "3. Urban and Landscape Studies: Finding Interpretative Approaches", "4. Crafting Identity and Clusters through Material Culture, Iconography and Texts", "5. Public Engagement and Cultural Heritage. The Role of Communication and Dissemination in the Humanities"] %}  
+{% set grouped_pages = pages | sort(attribute="extra.authors.0.surname") | group_by(attribute="extra.session") %}
+{% set posters = pages | filter(attribute="extra.poster") | sort(attribute="extra.authors.0.surname")  %}
+{% for session in session_order %}
+
+<section id={{ "session-" ~ session | slugify | truncate(length=9, end="") }} class="session">
+    {% if grouped_pages[session] is defined %}
+    <details>
+        <summary><h2>{{ session }}</h2></summary>
+            {% set session_keynotes = grouped_pages[session] | filter(attribute="extra.keynote") %}
+            {# First show keynotes #}
+            {% for page in session_keynotes %}
+            {% set first_author_slug = page.extra.authors[0].surname | slugify  %}
+            <article class="keynote" id="{{ page.extra.authors.0.surname}}">
+                <div>
+                    <h3>
+                    <span>Keynote lecture:</span>
+                    {% for author in page.extra.authors %}
+                        {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+                    {% endfor %}
+                    </h3>
+                    <h4><a href="{{ page.path | safe }}">{{ page.title }}</a></h4>
+                    <p>
+                        {{ page.content | striptags | truncate(length=300) | safe }}
+                    </p>
+                    <div class="abstract-footer">
+                        <p class="read-more">
+                            <a href="{{ page.path }}">Read more...</a>
+                        </p>
+                        <p>
+                            <a class="js-only" href="{{ "/program/schedule#" ~ first_author_slug }}">See this talk in the program &rarr;</a>
+                        </p>
+                        <noscript>
+                            <style>
+                                .js-only { display: none; }
+                            </style>
+                        </noscript>
+                    </div>
+                    <hr>
+                </div>
+            </article>
+            {% endfor %}
+            {# Then show talks #}
+            {% for page in grouped_pages[session] %}
+            {% set first_author_slug = page.extra.authors[0].surname | slugify  %}
+            {% if page.extra.poster is not defined and page.extra.keynote is not defined %}
+            <article id="{{ page.extra.authors.0.surname}}">
+                <h3>{% for author in page.extra.authors %}
+                {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+                {% endfor %}
+                </h3>
+                <h4><a href="{{ page.path | safe }}">{{ page.title }}</a></h4>
+                <p>
+                    {{ page.content | striptags | truncate(length=300) | safe }}
+                </p>
+                <div class="abstract-footer">
+                    <p class="read-more">
+                        <a href="{{ page.path }}">Read more...</a>
+                    </p>
+                    <p>
+                        <a class="js-only" href="{{ "/program/schedule#" ~ first_author_slug }}">See this talk in the program &rarr;</a>
+                    </p>
+                    <noscript>
+                        <style>
+                            .js-only { display: none; }
+                        </style>
+                    </noscript>
+                </div>
+                {% if not loop.last %} <hr> {% endif %}
+            </article>
+            {% endif %}
+            {% endfor %}
+    </details>
+    {% endif %}
+</section>
+{% endfor %}
+<section id="posters" class="session">
+    <details>
+        <summary><h2>Poster Session</h2></summary>
+        {% for poster in posters %}
+        <article id="{{ poster.extra.authors.0.surname | slugify }}">
+            {# check if div is needed #}
+            <h3>{% for author in poster.extra.authors %}
+            {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+            {% endfor %}
+            </h3>
+            <h4><a href="{{ poster.path | safe }}">{{ poster.title }}</a></h4>
+            <p>
+                {{ poster.content | striptags | truncate(length=300) | safe }}
+            </p>
+            <p class="read-more">
+                <a href="{{ poster.path }}">Read more...</a>
+            </p>
+            {% if not loop.last %} <hr> {% endif %}
+        </article>
+        {% endfor %}
+    </details>
+</section>
+{% endblock content %}

@@ -18,6 +18,7 @@
   {% block footer %}
   {% include "partials/footer.html" %}
   {% endblock %}
+  {% block scripts %}
   <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -29,6 +30,7 @@
     });
   }
 </script>
+{% endblock %}
 </body>
 
 </html>

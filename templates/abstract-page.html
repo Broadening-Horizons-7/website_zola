@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+{# Extract and set variables for navigation #}
+{% set session_slug = page.extra.session | slugify %}
+{% set first_author_slug = page.extra.authors[0].surname | slugify  %}
+{% set last_ancestor = page.ancestors | slice(start=-1) %}
+{% set current_section = get_section(path=last_ancestor.0) %}
+{% set ancestor_page = get_url(path= current_section.path) %}
+{% set sessions_page = get_url(path="about/sessions", trailing_slash=false) %}
+<article>
+    <h1>
+        {{ page.title }}
+    </h1>
+    <h2>
+        {% for author in page.extra.authors %}
+            {{ author.surname | upper }}, {{ author.name }}{% if not loop.last %} / {% endif %}
+        {% endfor %}
+    </h2>
+    {{ page.content | safe }}
+    <p>Session {{page.extra.session}} <sup><a href="{{sessions_page~"#session-"~ session_slug}}">[info]</a></sup></p>
+    <div class="abstract-footer">
+        <p><a href="{{current_section.path ~ "#" ~ page.extra.authors[0].surname}}">&larr; Go back to the {{current_section.title}}</a></p>
+        {% if page.extra.poster is not defined %}
+            <p class="js-only">
+            <a href="{{ "/program/schedule#" ~ first_author_slug }}">See this talk in the program &rarr;</a>
+        </p>
+        <noscript>
+            <style>
+                .js-only { display: none; }
+            </style>
+        </noscript>
+        {% endif %}
+    </div>
+</article>
+{% endblock content %}

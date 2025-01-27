@@ -1,8 +1,6 @@
 +++
 title = "Program information"
-paginate_by = 5
-template = "announcements.html"
+template = "program.html"
 page_template = "announcements-page.html"
-[extra]
-hide="true"
+sort_by = "weight"
 +++
