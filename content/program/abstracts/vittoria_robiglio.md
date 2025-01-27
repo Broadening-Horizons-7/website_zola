@@ -1,5 +1,5 @@
 +++
-title = "Late Chalcolithic i and Ii (4500-4000 Bce) at Arslantepe: Fabrics and Shapes of the Pottery in Period VIII"
+title = "Late Chalcolithic I and II (4500-4000 Bce) at Arslantepe: Fabrics and Shapes of the Pottery in Period VIII"
 [extra]
 authors = [
     {name = "Vittoria", surname = "Robiglio"},
