@@ -1,7 +1,7 @@
 +++
 title = "General information"
 weight = 1
-draft = true
+draft = false
 +++
 
 **Please have your conference ID with you all the time while attending the conference and social events.**
