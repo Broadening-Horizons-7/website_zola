@@ -1163,6 +1163,10 @@ font-style: italic;
   font-weight: bold;
 }
 
+.poster-session span {
+  font-weight: bold;
+}
+
 .poster-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
