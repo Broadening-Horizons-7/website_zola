@@ -30,6 +30,19 @@
                 .js-only { display: none; }
             </style>
         </noscript>
+        {% elif page.extra.poster is defined %}
+            <p class="js-only">
+                {% if config.extra.posters_in_program == false %}
+                <a href="{{ "/program/schedule#posters" }}">See poster session in the program &rarr;</a>
+                {% elif config.extra.posters_in_program == true %}
+                <a href="{{ "/program/schedule#" ~ first_author_slug }}">See this poster in the program &rarr;</a>     
+                {% endif %}
+        </p>
+        <noscript>
+            <style>
+                .js-only { display: none; }
+            </style>
+        </noscript>
         {% endif %}
     </div>
 </article>

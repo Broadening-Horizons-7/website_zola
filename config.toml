@@ -51,16 +51,13 @@ location = "Sapienza University, Rome 10-14 February 2025"
 email = "bh7.sapienza@uniroma1.it"
 images_default_size = 640
 images_sizes = [300, 600]
-
-# footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
+posters_in_program = true
 social = [
     {link = "mailto:$EMAIL_ADDRESS", name = "Email"},
     {link = "https://web.facebook.com/profile.php?id=61558871420161&rdid=hJpYy1DU5VCuaeow", name = "Facebook"},
     {link = "https://www.instagram.com/broadeninghorizons7_bh7", name = "Instagram"},
     {link = "https://github.com/Broadening-Horizons-7/website_zola", name = "Github"}
 ]
-
 # trailing slashes are needed for the aria-current page in header.html to work
 navbar_items = [
     { url = "/", name = "Home" },
@@ -73,7 +70,6 @@ navbar_items = [
     # { url = "/registration/", name = "Registration" },
     { url = "/program/", name = "Program" },
 ]
-
 scientific_committee = [
     {name = "Nicolò ", surname = "Marchetti", affiliation = "Alma Mater Studiorum University of Bologna", link = "https://www.unibo.it/sitoweb/nicolo.marchetti"},
     {name = "Luca ", surname = "Peyronel", affiliation = "University of Milan", link = "https://www.unimi.it/en/ugov/person/luca-peyronel"},

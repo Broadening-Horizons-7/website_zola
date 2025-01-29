@@ -1,0 +1,18 @@
+{% set abstract_section = get_section(path="program/abstracts/_index.md") %}
+{# {% set session_order = ["1. Exploring Archaeology as a Global Science", "2. Interdisciplinary Approaches to the Study of Ancient Economies", "3. Urban and Landscape Studies: Finding Interpretative Approaches", "4. Crafting Identity and Clusters through Material Culture, Iconography and Texts", "5. Public Engagement and Cultural Heritage. The Role of Communication and Dissemination in the Humanities"] %}  
+{% set grouped_pages = abstract_section.pages | sort(attribute="extra.authors.0.surname") | group_by(attribute="extra.session") %} #}
+{% set posters = abstract_section.pages | filter(attribute="extra.poster") | sort(attribute="extra.authors.0.surname")  %}
+
+<div class="poster-grid">
+{% for poster in posters %}
+{% set first_author_slug = poster.extra.authors[0].surname | slugify  %}
+    <div class="poster-item" id="{{ first_author_slug }}">
+        <span>
+        {% for author in poster.extra.authors %}
+            {{ author.name }} {{ author.surname }}{% if not loop.last %}, {% endif %}
+        {% endfor %}
+        </span><br>
+        <a href="{{ poster.path | safe }}">{{ poster.title }}</a>
+    </div>
+{% endfor %}
+</div>

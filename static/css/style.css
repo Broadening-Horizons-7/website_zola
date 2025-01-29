@@ -1100,7 +1100,7 @@ font-style: italic;
 }
 
 /* style author names */
-.program td > span {
+.program td span {
   font-weight: bold;
 }
 
@@ -1149,7 +1149,8 @@ font-style: italic;
   font-size: 1.35rem;
 }
 
-.program td[id]:target {
+.program td[id]:target, 
+.program .poster-item[id]:target {
   animation: highlight 1.5s ease-in-out 3;  /* Will repeat 3 times */
 }
 
@@ -1176,7 +1177,7 @@ font-style: italic;
 
 .poster-item {
   padding: 10px;
-  border: 1px solid var(--border);
+  /* border: 1px solid var(--border); */
 }
 
 /* Tabs from https://codepen.io/dcode-software/pen/NWpZjNB */
