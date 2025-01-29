@@ -1,5 +1,5 @@
 +++
-title = "after the Storm: Assessing Reoccupation in the Assyrian Heartland after 612 BCE"
+title = "After the Storm: Assessing Reoccupation in the Assyrian Heartland after 612 BCE"
 [extra]
 authors = [
     {name = "Gabriele", surname = "Giacosa"}
