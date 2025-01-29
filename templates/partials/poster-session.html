@@ -5,8 +5,8 @@
 
 <div class="poster-grid">
 {% for poster in posters %}
-    <div class="poster-item ">
-        {# {{ "session" ~ poster.extra.session | truncate(length=8, end="")}} #}
+{% set first_author_slug = poster.extra.authors[0].surname | slugify  %}
+    <div class="poster-item" id="{{ first_author_slug }}">
         <span>
         {% for author in poster.extra.authors %}
             {{ author.name }} {{ author.surname }}{% if not loop.last %}, {% endif %}
