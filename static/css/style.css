@@ -1159,6 +1159,21 @@ font-style: italic;
   }
 }
 
+.poster-session a:first-child {
+  font-weight: bold;
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1rem; */
+  margin: 0 5rem 2rem 5rem;
+}
+
+.poster-item {
+  padding: 10px;
+  border: 1px solid var(--border);
+}
 
 /* Tabs from https://codepen.io/dcode-software/pen/NWpZjNB */
 .tabs {
