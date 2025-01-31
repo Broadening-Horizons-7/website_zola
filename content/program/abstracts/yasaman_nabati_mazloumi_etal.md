@@ -3,7 +3,7 @@ title = "“Braided Engagement” a New Concept to Community Participation in Ar
 [extra]
 authors = [
     {name = "Yasaman", surname = "Nabati Mazloumi"},
-    {name = "Chang", surname = "Tahrir"},
+    {name = "Chang Farhan", surname = "Tahrir"},
     {name = "Francesca", surname = "Simi"}
 ]
 session = "5. Public Engagement and Cultural Heritage. The Role of Communication and Dissemination in the Humanities"
