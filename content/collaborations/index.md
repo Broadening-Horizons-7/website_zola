@@ -18,7 +18,7 @@ title = "Collaborations"
     {{ image(src="img/logo_roma_capitale.webp" url = "https://www.comune.roma.it/web/it/home.page/" alt="Roma Capitale Logo", class = "", height_override = 110, caption = "", loading = "lazy") }}
 </div>
 
-## With the scientific and financial support of
+## With the Scientific and Financial support of
 
 <div class="sponsors">
     {{ image(src="img/ismeo.webp" url = "https://www.ismeo.eu/" alt="ISMEO Logo", class = "", height_override = 171, caption = "", loading = "lazy") }}
