@@ -9,7 +9,7 @@
     <div class="poster-item" id="{{ first_author_slug }}">
         <span>
         {% for author in poster.extra.authors %}
-            {{ author.name }} {{ author.surname }}{% if not loop.last %}, {% endif %}
+            {{ author.name }} {{ author.surname }} {% if poster.extra.online %} (R) {% endif %} {% if not loop.last %}, {% endif %}
         {% endfor %}
         </span><br>
         <a href="{{ poster.path | safe }}">{{ poster.title }}</a>
