@@ -9,10 +9,10 @@ The Organizing Committee is composed of doctoral and postdoctoral researchers as
 
 {{ org_committee() }}
 
-## Scientific Committee
-
-{{ scientific_committee() }}
-
 ## Executive Team
 
 {{ executive_team() }}
+
+## Scientific Committee
+
+{{ scientific_committee() }}
