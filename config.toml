@@ -104,6 +104,16 @@ organizing_committee = [
     {name = "Marinella ", surname = "Ceravolo", affiliation = "Sapienza University of Rome", link = "https://corsidilaurea.uniroma1.it/it/users/marinellaceravolouniroma1it"},
     {name = "Andrea ", surname = "Titolo", affiliation = "University of Turin", link = "https://orcid.org/0000-0002-7322-8634"}
 ]
+executive_team = [
+    {name = "Ida", surname = "Ceccarelli", affiliation = "Sapienza University of Rome"},
+    {name = "Alessandro", surname = "Cecchini", affiliation = "Sapienza University of Rome"},
+    {name = "Irene", surname = "Cenciarelli", affiliation = "Sapienza University of Rome"},
+    {name = "Francesca", surname = "Chessa", affiliation = "Sapienza University of Rome"},
+    {name = "Julia", surname = "Karlsson", affiliation = "Sapienza University of Rome"},
+    {name = "Dorothea", surname = "Latini", affiliation = "Sapienza University of Rome"},
+    {name = "Lauren", surname = "Malkoun", affiliation = "Sapienza University of Rome"},
+    {name = "Emma", surname = "Vanoli", affiliation = "Sapienza University of Rome"}
+]
 [extra.favicon]
 favicon_ico = "/img/favicons/favicon.ico"
 favicon_svg = "/img/favicons/icon.svg"

@@ -1,0 +1,16 @@
+<div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Affiliation</th>
+        </tr>
+        {% for item in config.extra.executive_team | sort(attribute = "surname") -%}
+        <tr>
+            <td>
+                {{item.name}} {{item.surname}}
+            </td>
+            <td>{{item.affiliation}}</td>
+        </tr>
+        {%- endfor %}
+    </table>
+</div>
