@@ -52,6 +52,7 @@ email = "bh7.sapienza@uniroma1.it"
 images_default_size = 640
 images_sizes = [300, 600]
 posters_in_program = true
+welcome_addresses_in_program = true
 social = [
     {link = "mailto:$EMAIL_ADDRESS", name = "Email"},
     {link = "https://web.facebook.com/profile.php?id=61558871420161&rdid=hJpYy1DU5VCuaeow", name = "Facebook"},
@@ -113,6 +114,16 @@ executive_team = [
     {name = "Dorothea", surname = "Latini", affiliation = "Sapienza University of Rome"},
     {name = "Lauren", surname = "Malkoun", affiliation = "Sapienza University of Rome"},
     {name = "Emma", surname = "Vanoli", affiliation = "Sapienza University of Rome"}
+]
+
+welcome_addresses = [
+    {name = "Paolo", surname = "Carafa", role = "Pro-Rector of Archaeological Heritage at Sapienza University of Rome", title = "Prof."},
+    {name = "Matilde", surname = "Mastrangelo", role = "Vice Dean of the Faculty of Arts and Humanities at Sapienza University of Rome", title = "Prof."},
+    {name = "Franco", surname = "D'Agostino", role = "Director of the Dept. ISO - Italian Institute of Oriental Studies at Sapienza University of Rome", title = "Prof."},
+    {name = "Alessandro", surname = "Saggioro", role = "Director of the Dept. SARAS - History, Anthropology, Religions, Art history, Media and Performing Arts", title = "Prof."},
+    {name = "Maria Teresa", surname = "D'Alessio", role = "Director of the Doctoral School in Archaeology at Sapienza University of Rome", title = "Prof."},
+    {name = "Andrea", surname = "Manzo", role = "Vice President of ISMEO - The International Association for Mediterranean and Oriental Studies", title = "Prof."},
+    {name = "Marcella", surname = "Frangipane", role = "President of CIRAAS - International Center for Archaeological, Anthropological, and Historical Research", title = "Prof."}
 ]
 [extra.favicon]
 favicon_ico = "/img/favicons/favicon.ico"
