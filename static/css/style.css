@@ -1232,6 +1232,23 @@ font-style: italic;
   font-size: 0.9rem;
 }
 
+.program-change p {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 2rem;
+}
+
+.program-change ul {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.program-change ul li {
+  padding: 1rem;
+}
+
 /* 5. Mobile –––––––––––––––––––––––––––––––––––––– */
 
 @media only screen and (max-width: 810px) {
