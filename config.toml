@@ -123,7 +123,7 @@ welcome_addresses = [
     {name = "Alessandro", surname = "Saggioro", role = "Director of the Dept. SARAS - History, Anthropology, Religions, Art history, Media and Performing Arts", title = "Prof."},
     {name = "Maria Teresa", surname = "D'Alessio", role = "Director of the Doctoral School in Archaeology at Sapienza University of Rome", title = "Prof."},
     {name = "Andrea", surname = "Manzo", role = "Vice President of ISMEO - The International Association for Mediterranean and Oriental Studies", title = "Prof."},
-    {name = "Marcella", surname = "Frangipane", role = "President of CIRAAS - International Center for Archaeological, Anthropological, and Historical Research", title = "Prof."}
+    {name = "Francesca", surname = "Balossi Restelli", role = "Professor of Prehistory and Protohistory of West Asia at the Sapienza University of Rome and representative of CIRAAS and Fondazione Sapienza", title = "Prof."}
 ]
 [extra.favicon]
 favicon_ico = "/img/favicons/favicon.ico"
