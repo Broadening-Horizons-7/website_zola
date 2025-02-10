@@ -6,7 +6,7 @@ draft = false
 
 **Please have your conference ID with you all the time while attending the conference and social events.**
 
-The **registration/information** desk is located in Room 110 in the Istituto Italiano di Studi Orientali (ISO) building at Scalo S. Lorenzo, Circonvallazione Tiburtina 4, 00185, S. Lorenzo area. It will open on Monday 10 February at 09:00 and is open daily during the conference hours. The support team and organizing committee are there for all your inquiries related to the conference and to Rome.
+The **registration/information** desk is located in Room 109 in the Istituto Italiano di Studi Orientali (ISO) building at Scalo S. Lorenzo, Circonvallazione Tiburtina 4, 00185, S. Lorenzo area. It will open on Monday 10 February at 09:00 and is open daily during the conference hours. The support team and organizing committee are there for all your inquiries related to the conference and to Rome.
 
 A **Free Wi-Fi** internet service is available to all BH7 registered participants within the premises of the conference venue. To gain access, please visit the registration desk, where you will be provided with a unique username and password. Please note that a copy of a valid identification document will also be required by the organizers.
 
