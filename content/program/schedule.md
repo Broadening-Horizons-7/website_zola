@@ -12,5 +12,5 @@ This is an interactive view of the program. You can click on each talk title to 
 
 &#9888; Latest program changes
 
-- **2025-02-10**: Unfortunately, the Keynote Lecture of Prof. Marcella Frangipane scheduled for 11:30 has been canceled.
+- **2025-02-12**: The talk by Sarvenaz Parsa, scheduled for 15:30 on Wednesday, will be delivered remotely.
 </div>
