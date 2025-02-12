@@ -12,7 +12,8 @@ This is an interactive view of the program. You can click on each talk title to 
 
 &#9888; Latest program changes
 
-- **2025-02-11**: Please note that until further announcements, talks in Room 107 will be moved in **Room 110** due to technical issues.
+- **Please note that until further announcements**, talks in Room 107 will be moved in **Room 110** due to technical issues.
+- **2025-02-12**: Unfortunately, the talk by Alessia Savelli, scheduled for 14:30 on Wednesday, is cancelled.
 - **2025-02-12**: The talk by Sarvenaz Parsa, scheduled for 15:30 on Wednesday, will be delivered remotely.
 - **2025-02-14**: The talk by Mona Akmal Mohamed Ahmed, scheduled for 9:30 on Friday, will be delivered remotely.
 </div>
