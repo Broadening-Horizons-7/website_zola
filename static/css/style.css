@@ -1242,16 +1242,21 @@ font-style: italic;
 .program-change ul {
   list-style-type: none;
   display: flex;
-
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .program-change ul li {
   padding: 1rem;
+  flex-basis: 33%;
 }
 
 /* 5. Mobile –––––––––––––––––––––––––––––––––––––– */
 
 @media only screen and (max-width: 810px) {
+  .program-change ul {
+    flex-direction: column;
+  }
   .abstract-footer {
     flex-direction: column;
   }
