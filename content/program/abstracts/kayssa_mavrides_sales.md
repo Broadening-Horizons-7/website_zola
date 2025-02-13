@@ -1,5 +1,5 @@
 +++
-title = "Pedagogical Approaches in Archaeology and Heritage Education from the Ancient Near East: a Freirean Perspective"
+title = "Pedagogical Approaches in Archaeology and Heritage Education from Western Asia: a Freirean Perspective"
 [extra]
 authors = [
     {name = "Kayssa", surname = "Mavrides Sales"}
