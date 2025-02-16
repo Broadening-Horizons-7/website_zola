@@ -1,7 +1,7 @@
 +++
 title = "Social Events"
 weight = 3
-draft = true
+draft = false
 +++
 
 **Please note that admission to the events will be allowed by conference ID only!**
@@ -12,7 +12,7 @@ An Opening Reception will follow the program from 17:30 till 20:00 and will take
 
 ## Thursday 13 February
 
-A Final Reception will follow the program from 18:30 till 22:00 and will take place at the [RUFA Space of the Rome University of Fine Arts](https://www.unirufa.it/en/sedi/sedi-roma/via-degli-ausoni-7/rufa-space/) at their branch in San Lorenzo, **Via degli Ausoni, 7, 00185 Rome**. The RUFA space is only around 10 minutes walking distance from the conference venue.
+A Final Reception will follow the program from 17:30 till 20:00 and will take place at the [RUFA Space of the Rome University of Fine Arts](https://www.unirufa.it/en/sedi/sedi-roma/via-degli-ausoni-7/rufa-space/) at their branch in San Lorenzo, **Via degli Ausoni, 7, 00185 Rome**. The RUFA space is only around 10 minutes walking distance from the conference venue.
 
 **Directions**
 
